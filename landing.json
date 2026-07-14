@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "title": "Migration Hub",
+  "introduction": "Migration Hub is your centralized platform for managing migrations between IBM Cloud products and services. Access expert guidance, migration tools, and real-time status tracking for transitions like Classic Infrastructure to VPC, Cloud Foundry to Code Engine, and deprecated services to modern replacements.",
+  "product_page": "https://www.ibm.com/solutions/cloud",
+  "console_page": "/migration-hub",
+  "section_topics": {
+    "links": [
+      {
+        "title": "Getting started with Migration Hub",
+        "href": "/docs/migration-hub?topic=migration-hub-overview"
+      },
+      {
+        "title": "Migration best practices",
+        "href": "/docs/migration-hub?topic=migration-hub-migration-best-practices"
+      },
+      {
+        "title": "Frequently asked questions",
+        "href": "/docs/migration-hub?topic=migration-hub-migration-hub-faq"
+      },
+      {
+        "title": "Troubleshooting migrations",
+        "href": "/docs/migration-hub?topic=migration-hub-troubleshoot-xx"
+      },
+      {
+        "title": "Getting help",
+        "href": "/docs/migration-hub?topic=migration-hub-help-and-support"
+      }
+    ]
+  },
+  "section_highlights": [
+    {
+      "title": "Migrating from Classic Infrastructure to VPC",
+      "description": "Learn how to transition your workloads from IBM Cloud Classic Infrastructure to Virtual Private Cloud for enhanced security and performance.",
+      "href": "https://cloud.ibm.com/docs/vpc",
+      "type": "training",
+      "recommended": true
+    },
+    {
+      "title": "Cloud Foundry to Code Engine Migration Guide",
+      "description": "Step-by-step guidance for migrating your Cloud Foundry applications to IBM Cloud Code Engine.",
+      "href": "https://cloud.ibm.com/docs/codeengine",
+      "type": "training"
+    }
+  ],
+  "section_updates": {
+    "view_more": "/docs/migration-hub?topic=migration-hub-release-notes",
+    "tiles": [
+      {
+        "date": "30 June 2026",
+        "title": "Migration Hub internal Beta GA Release - Q2 2026"
+      },
+      {
+        "date": "30 September 2026",
+        "title": "Centralized migration tracking and status monitoring"
+      }
+    ]
+  }
+}

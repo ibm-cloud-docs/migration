@@ -1,0 +1,37 @@
+toc:
+  properties:
+    subcollection: migration-hub
+    href: /docs/migration-hub
+    path: migration-hub
+    service-name: Migration Hub
+    audience: solution
+    category: migration_tools
+    content-type: tutorial
+    description: Centralized platform for managing migrations between IBM Cloud products and services
+    label: Migration Hub
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - overview.md
+      - bestpractices.md
+      - topic: release-notes.md
+        navtitle: Release notes
+  - navgroup:
+      id: howto
+      topics:
+      - topic: how-to.md
+        navtitle: Getting started with migration
+      - topic: request-GHE-access.md
+        navtitle: Requesting access to GitHub Enterprise
+  - navgroup:
+      id: help
+      topics:
+      - topic: get-help.md
+        navtitle: Getting help and support for Migration hub
+      - faq.md
+      - topicgroup:
+          id: troubleshooting
+          label: Troubleshooting
+          topics:
+          - troubleshoot.md
