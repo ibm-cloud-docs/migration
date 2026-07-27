@@ -2,11 +2,11 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-07-14"
+lastupdated: "2026-07-27"
 
 keywords: question about _xx_, _messageID_
 
-subcollection: migration-hub
+subcollection: migration
 
 content-type: troubleshoot
 

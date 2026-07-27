@@ -1,7 +1,7 @@
 toc:
   properties:
-    subcollection: migration-hub
-    href: /docs/migration-hub
+    subcollection: migration
+    href: /docs/migration
     path: migration-hub
     service-name: Migration Hub
     audience: solution
@@ -13,8 +13,8 @@ toc:
   - navgroup:
       id: learn
       topics:
-      - overview.md
-      - bestpractices.md
+      - topic: ../migration-service-engagement/migration-hub.md
+      - include: ../migration-service-engagement/bestpractices.md
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:
@@ -22,7 +22,7 @@ toc:
       topics:
       - topic: how-to.md
         navtitle: Getting started with migration
-      - topic: request-GHE-access.md
+      - include: ../migration-service-engagement/request-GHE-access.md
         navtitle: Requesting access to GitHub Enterprise
   - navgroup:
       id: help
