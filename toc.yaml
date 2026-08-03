@@ -13,34 +13,27 @@ toc:
   - navgroup:
       id: learn
       topics:
-      - topic: ../migration-service-engagement/migration-hub.md
-      - include: ../migration-service-engagement/bestpractices.md
-      - topic: release-notes.md
-        navtitle: Release notes
-  - navgroup:
-      id: learn
-      topics:
-      - topic: ../migration-service-engagement/migration-hub.md
+      - include: ../migration-service-engagement/migration-hub.md
         navtitle: About Migration Hub
-      - topic: ../migration-service-engagement/get-engaged.md
+      - include: ../migration-service-engagement/get-engaged.md
         navtitle: Get engaged with Migration Hub
-      - topic: ../migration-service-engagement/bestpractices.md
-      - topic: ../migration-service-engagement/roles-responsibilities.md
+      - include: ../migration-service-engagement/bestpractices.md
+      - include: ../migration-service-engagement/roles-responsibilities.md
         navtitle: Roles and responsibilities
-      - topic: ../migration-service-engagement/release-notes.md
+      - include: ../migration-service-engagement/release-notes.md
   - navgroup:
       id: reference
       topics:
-      - topic: ../migration-service-engagement/glossary.md
+      - include: ../migration-service-engagement/glossary.md
         navtitle: Glossary
   - navgroup:
       id: help
       topics:
-      - ../migration-service-engagement/faq.md
+      - include: ../migration-service-engagement/faq.md
       - topicgroup:
           id: troubleshooting
           label: Troubleshooting
           topics:
-          - ../migration-service-engagement/troubleshoot.md
-      - topic: ../migration-service-engagement/contact.md
+          - include: ../migration-service-engagement/troubleshoot.md
+      - include: ../migration-service-engagement/contact.md
         navtitle: Help and support
