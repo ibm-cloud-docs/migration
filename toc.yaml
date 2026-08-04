@@ -13,14 +13,34 @@ toc:
   - navgroup:
       id: learn
       topics:
-      - include: ../migration-service-engagement/migration-hub.md
+      - topic: migration-hub.md
         navtitle: About Migration Hub
-      - include: ../migration-service-engagement/get-engaged.md
+      - topic: get-engaged.md
         navtitle: Get engaged with Migration Hub
       - include: ../migration-service-engagement/bestpractices.md
       - include: ../migration-service-engagement/roles-responsibilities.md
         navtitle: Roles and responsibilities
       - include: ../migration-service-engagement/release-notes.md
+  - navgroup:
+      id: howto
+      topics:
+      - topicgroup:
+          label: Working through migration phases
+          topics:
+          - topic: learning.md
+            navtitle: Overview of the migration phases
+          - topic: phase-1-knowing-your-service.md
+            navtitle: "Knowing your service"
+          - topic: phase-2-experimental-staging.md
+            navtitle: "Moving to staging"
+          - topic: phase-3-beta.md
+            navtitle: "Beta testing"
+          - topic: phase-4-ga-delivery.md
+            navtitle: "GA delivery and customer engagement"
+          - topic: phase-5-ongoing-operations.md
+            navtitle: "Ongoing operations"
+          - topic: phase-6-offboarding.md
+            navtitle: "Offboarding"
   - navgroup:
       id: reference
       topics:
@@ -30,10 +50,5 @@ toc:
       id: help
       topics:
       - include: ../migration-service-engagement/faq.md
-      - topicgroup:
-          id: troubleshooting
-          label: Troubleshooting
-          topics:
-          - include: ../migration-service-engagement/troubleshoot.md
       - include: ../migration-service-engagement/contact.md
         navtitle: Help and support
