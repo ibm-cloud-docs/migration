@@ -22,26 +22,6 @@ toc:
         navtitle: Roles and responsibilities
       - include: ../migration-service-engagement/release-notes.md
   - navgroup:
-      id: howto
-      topics:
-      - topicgroup:
-          label: Working through migration phases
-          topics:
-          - topic: learning.md
-            navtitle: Overview of the migration phases
-          - topic: phase-1-knowing-your-service.md
-            navtitle: "Knowing your service"
-          - topic: phase-2-experimental-staging.md
-            navtitle: "Moving to staging"
-          - topic: phase-3-beta.md
-            navtitle: "Beta testing"
-          - topic: phase-4-ga-delivery.md
-            navtitle: "GA delivery and customer engagement"
-          - topic: phase-5-ongoing-operations.md
-            navtitle: "Ongoing operations"
-          - topic: phase-6-offboarding.md
-            navtitle: "Offboarding"
-  - navgroup:
       id: reference
       topics:
       - include: ../migration-service-engagement/glossary.md
