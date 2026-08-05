@@ -31,12 +31,6 @@
       "href": "https://cloud.ibm.com/docs/vpc",
       "type": "training",
       "recommended": true
-    },
-    {
-      "title": "Cloud Foundry to Code Engine Migration Guide",
-      "description": "Step-by-step guidance for migrating your Cloud Foundry applications to IBM Cloud Code Engine.",
-      "href": "https://cloud.ibm.com/docs/codeengine",
-      "type": "training"
     }
   ],
   "section_updates": {
