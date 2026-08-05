@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "title": "Migration Hub",
+  "title": "Migration",
   "introduction": "Migration Hub is your centralized platform for managing migrations between IBM Cloud products and services. Access expert guidance, migration tools, and real-time status tracking for transitions like Classic Infrastructure to VPC, Cloud Foundry to Code Engine, and deprecated services to modern replacements.",
   "product_page": "https://www.ibm.com/solutions/cloud",
-  "console_page": "/migration-hub",
+  "console_page": "/migration",
   "section_topics": {
     "links": [
       {
@@ -12,19 +12,15 @@
       },
       {
         "title": "Migration best practices",
-        "href": "/docs/migration-hub?topic=migration-hub-migration-best-practices"
+        "href": "/docs/migration?topic=migration-migration-best-practices"
       },
       {
         "title": "Frequently asked questions",
-        "href": "/docs/migration-hub?topic=migration-hub-migration-hub-faq"
-      },
-      {
-        "title": "Troubleshooting migrations",
-        "href": "/docs/migration-hub?topic=migration-hub-troubleshoot-xx"
+        "href": "/docs/migration?topic=migration-migration-hub-faq"
       },
       {
         "title": "Getting help",
-        "href": "/docs/migration-hub?topic=migration-hub-help-and-support"
+        "href": "/docs/migration?topic=migration-help-and-support"
       }
     ]
   },
@@ -44,7 +40,7 @@
     }
   ],
   "section_updates": {
-    "view_more": "/docs/migration-hub?topic=migration-hub-release-notes",
+    "view_more": "/docs/migration?topic=migration-release-notes",
     "tiles": [
       {
         "date": "30 June 2026",
