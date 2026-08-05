@@ -1,7 +1,7 @@
 {
   "version": 2,
   "title": "Migration",
-  "introduction": "Migration Hub is your centralized platform for managing migrations between IBM Cloud products and services. Access expert guidance, migration tools, and real-time status tracking for transitions like Classic Infrastructure to VPC, Cloud Foundry to Code Engine, and deprecated services to modern replacements.",
+  "introduction": "Migration Hub is your centralized platform for managing migrations between IBM Cloud products and services. Access expert guidance, migration tools, and real-time status tracking for transitions like Classic Infrastructure to VPC and deprecated services to modern replacements.",
   "product_page": "https://www.ibm.com/solutions/cloud",
   "console_page": "/migration",
   "section_topics": {

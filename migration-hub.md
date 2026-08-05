@@ -13,13 +13,13 @@ subcollection: migration-service-engagement
 
 {{site.data.keyword.attribute-definition-list}}
 
-# About {[mh]}
+# About Migration Hub
 {: #about-migration-hub}
 
-The IBM Cloud {[mh]} is the centralized platform for customers to view and analyze migration opportunities and plan transitions between {{site.data.keyword.cloud_notm}} products and services. {[mh]} focuses on migrations within the IBM Cloud ecosystem, such as migrating from Classic Infrastructure to VPC, between other appropriate products and services, or from deprecated services to their modern replacements. 
+The IBM Cloud Migration Hub is the centralized platform for customers to view and analyze migration opportunities and plan transitions between {{site.data.keyword.cloud_notm}} products and services. Migration Hub focuses on migrations within the IBM Cloud ecosystem, such as migrating from Classic Infrastructure to VPC, between other appropriate products and services, or from deprecated services to their modern replacements. 
 {: shortdesc}
 
-{[mh]} provides a unified {{site.data.keyword.cloud_notm}} experience for all migration opportunities, including Classic to VPC, VMware to OpenShift/VPC VSI, and more. The platform delivers:
+Migration Hub provides a unified {{site.data.keyword.cloud_notm}} experience for all migration opportunities, including Classic to VPC, VMware to OpenShift/VPC VSI, and more. The platform delivers:
 
 - **Unified Migration Experience**: Centralized hub for all IBM Cloud migration activities across different migration paths
 - **Real-Time Account Insights**: Live data showing migration blockers, progress tracking, and migration opportunities specific to your account
@@ -31,7 +31,7 @@ The IBM Cloud {[mh]} is the centralized platform for customers to view and analy
 ## Key capabilities and objectives
 {: #capabilities-objectives}
 
-{[mh]} delivers powerful features designed to achieve strategic migration objectives:
+Migration Hub delivers powerful features designed to achieve strategic migration objectives:
 
 - **Resource Discovery**: Displays all resources eligible for migration via Lucene queries, accelerating product modernization by reducing time for product-to-product migrations
 - **Migration Status Tracking**: Shows real-time progress through Resource Controller attributes, improving migration success rates and minimizing service disruption
@@ -42,7 +42,7 @@ The IBM Cloud {[mh]} is the centralized platform for customers to view and analy
 ## Architecture
 {: #architecture}
 
-{[mh]} is a generic framework for displaying migration content. It displays your resource list and migration status, and launches out to additional migration tools. 
+Migration Hub is a generic framework for displaying migration content. It displays your resource list and migration status, and launches out to additional migration tools. 
 
 ![Migration Hub architecture overview](/images/m-hub-arch-new.svg "Migration Hub architecture overview"){: caption="Migration Hub architecture: UI flow and team responsibilities" caption-side="bottom"}
 
@@ -50,10 +50,10 @@ The IBM Cloud {[mh]} is the centralized platform for customers to view and analy
 {: #additional-considerations}
 
 Expert Product Knowledge
-:   {[mh]} connects you with specialists who understand both the source and target {{site.data.keyword.cloud_notm}} products.
+:   Migration Hub connects you with specialists who understand both the source and target {{site.data.keyword.cloud_notm}} products.
 
 Feature Parity Understanding
-:   {[mh]} provides clear documentation of feature differences between {{site.data.keyword.cloud_notm}} products to support informed migration decisions.
+:   Migration Hub provides clear documentation of feature differences between {{site.data.keyword.cloud_notm}} products to support informed migration decisions.
 
 Post-Migration Optimization
-:   {[mh]} offers guidance for optimizing your new {{site.data.keyword.cloud_notm}} products after migration is complete.
+:   Migration Hub offers guidance for optimizing your new {{site.data.keyword.cloud_notm}} products after migration is complete.

@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-08-04"
+lastupdated: "2026-08-05"
 
 keywords: migration hub phase 1, knowing your service, migration planning, service engagement registration, migration stakeholders, Aha engagement, IBM Cloud Service Framework, migration timeline, migration scope
 
@@ -18,12 +18,12 @@ content-type: howto
 # Knowing your service
 {: #phase-knowing-your-service}
 
-The first phase of the {[mh]} engagement covers everything your service team must do before building anything. The goal is to understand the {[mh]} framework, define your migration scenario, identify the right people, establish a timeline, and decide how customers are engaged throughout the process.
+The first phase of the Migration Hub engagement covers everything your service team must do before building anything. The goal is to understand the Migration Hub framework, define your migration scenario, identify the right people, establish a timeline, and decide how customers are engaged throughout the process.
 {: shortdesc}
 
 Start this phase at least three to six months before your migration task is planned to go live. Creating migration materials, reaching alignment across teams, and completing required reviews takes variable amounts of time.
 
-The phase concludes with formal registration of intent — a GitHub issue filed with the {[mh]} team that creates a tracking record and initiates collaboration. By the end of this phase, your team is aligned, documented, and ready to build.
+The phase concludes with formal registration of intent — a GitHub issue filed with the Migration Hub team that creates a tracking record and initiates collaboration. By the end of this phase, your team is aligned, documented, and ready to build.
 
 ## Key deliverables
 {: #phase1-deliverables}
@@ -35,7 +35,7 @@ The phase concludes with formal registration of intent — a GitHub issue filed 
 - Service identity documented (service name, PID, and short and long forms)
 - Key stakeholders identified across PM, DevOps, Architecture, Design, and leadership
 - PMT/MMT approval milestones scheduled
-- GitHub issue submitted by using the {[mh]} **Service Onboarding Request** template
+- GitHub issue submitted by using the Migration Hub **Service Onboarding Request** template
 
 ## Timeline guidance
 {: #phase1-timeline}
@@ -54,9 +54,9 @@ Plan your migration at least six months before your target GA date. Use the foll
 ## Submitting the business GitHub issue
 {: #phase1-github-issue}
 
-The product manager for the migrating service must create a **{[mh]} - Service Onboarding Request** in the [{[mh]} repository by using the provided issue template. This issue captures the high-level business context for the migration — why it is happening, what the customer impact is, and what success looks like — before any technical build work begins.
+The product manager for the migrating service must create a **Migration Hub - Service Onboarding Request** in the [Migration Hub repository by using the provided issue template. This issue captures the high-level business context for the migration — why it is happening, what the customer impact is, and what success looks like — before any technical build work begins.
 
-After approval, the {[mh]} team uses this issue to track your engagement and route it to the right reviewers. You can update the issue as details evolve.
+After approval, the Migration Hub team uses this issue to track your engagement and route it to the right reviewers. You can update the issue as details evolve.
 
 
 ## Reviewing the IBM Cloud Service Framework
@@ -64,21 +64,21 @@ After approval, the {[mh]} team uses this issue to track your engagement and rou
 
 Review the [IBM Cloud Service Framework](/docs/service-framework){: external} before building anything. The Service Framework defines the standards, requirements, and processes that all IBM Cloud services must meet. Understanding where your service stands against those requirements is essential context for your migration integration.
 
-Pay particular attention to the sections on service [lifecycle](/docs/service-framework?topic=service-framework-lifecycle){: external}, [deprecation](/docs/service-framework?topic=service-framework-deprecation-offeringplanfeature-requirements-for-end-of-support-eos){: external}, and customer communication standards, as these directly intersect with {[mh]} engagement requirements.
+Pay particular attention to the sections on service [lifecycle](/docs/service-framework?topic=service-framework-lifecycle){: external}, [deprecation](/docs/service-framework?topic=service-framework-deprecation-offeringplanfeature-requirements-for-end-of-support-eos){: external}, and customer communication standards, as these directly intersect with Migration Hub engagement requirements.
 
 ## Exit criteria
 {: #phase1-exit}
 
-Before proceeding to phase 2, the {[mh]} team must review and approve your readiness. The reviewer confirms the following:
+Before proceeding to phase 2, the Migration Hub team must review and approve your readiness. The reviewer confirms the following:
 
 - Your business GitHub issue is submitted and captures sufficient context.
 - Your Aha! Epics are created and visible in the tracking view.
 - Your team has reviewed the Service Framework and the full engagement expectations.
 - No gaps remain that require changes before approval.
 
-The {[mh]} team reaches out to schedule this review after your GitHub issue is submitted. After approval, your initial liaison is assigned and both teams are aligned on scope, timeline, and customer engagement approach.
+The Migration Hub team reaches out to schedule this review after your GitHub issue is submitted. After approval, your initial liaison is assigned and both teams are aligned on scope, timeline, and customer engagement approach.
 
 ## Next steps
 {: #phase1-next-steps}
 
-After your GitHub issue is approved, request CZero GitHub access through AccessHub and begin [Moving to staging]({[link]}-phase-experimental-staging) phase.
+After your GitHub issue is approved, request CZero GitHub access through AccessHub and begin [Moving to staging](/docs/migration-service-engagement?topic=migration-service-engagement-phase-experimental-staging) phase.
