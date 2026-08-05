@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-08-04"
+lastupdated: "2026-08-05"
 
 keywords: migration hub, migration task, service team, architecture, console shell, migration wizard, config.json, content pages, migrationLoader, framework
 
@@ -16,10 +16,10 @@ subcollection: migration-service-engagement
 # About {[mh]}
 {: #about-migration-hub}
 
-The IBM Cloud {[mh]} is the centralized platform for services to engage with critical migration procedures when transitioning between {{site.data.keyword.cloud_notm}} products and services. {[mh]} focuses on migrations within the IBM Cloud ecosystem, such as migrating from Classic Infrastructure to VPC, between other appropriate products and services, or from deprecated services to their modern replacements. 
+The IBM Cloud {[mh]} is the centralized platform for customers to view and analyze migration opportunities and plan transitions between {{site.data.keyword.cloud_notm}} products and services. {[mh]} focuses on migrations within the IBM Cloud ecosystem, such as migrating from Classic Infrastructure to VPC, between other appropriate products and services, or from deprecated services to their modern replacements. 
 {: shortdesc}
 
-{[mh]} provides a unified {{site.data.keyword.cloud_notm}} experience for all migration motions, including Classic to VPC, VMware to OpenShift/VPC VSI, and more. The platform delivers:
+{[mh]} provides a unified {{site.data.keyword.cloud_notm}} experience for all migration opportunities, including Classic to VPC, VMware to OpenShift/VPC VSI, and more. The platform delivers:
 
 - **Unified Migration Experience**: Centralized hub for all IBM Cloud migration activities across different migration paths
 - **Real-Time Account Insights**: Live data showing migration blockers, progress tracking, and migration opportunities specific to your account
@@ -33,50 +33,27 @@ The IBM Cloud {[mh]} is the centralized platform for services to engage with cri
 
 {[mh]} delivers powerful features designed to achieve strategic migration objectives:
 
-Resource Discovery
-:   Displays all resources eligible for migration via Lucene queries, accelerating product modernization by reducing time for product-to-product migrations
-
-Migration Status Tracking
-:   Shows real-time progress through Resource Controller attributes, improving migration success rates and minimizing service disruption
-
-Service-Specific Wizards
-:   Launches dedicated migration tools for each service type, ensuring consistent migration experiences and increasing successful completion rates
-
-Generic Framework
-:   Provides reusable content templates for service teams, driving product adoption of modern IBM Cloud services
-
-Customer Self-Service
-:   Enables independent workload assessment and migration execution, reducing customer churn by simplifying migration complexity
+- **Resource Discovery**: Displays all resources eligible for migration via Lucene queries, accelerating product modernization by reducing time for product-to-product migrations
+- **Migration Status Tracking**: Shows real-time progress through Resource Controller attributes, improving migration success rates and minimizing service disruption
+- **Service-Specific Wizards**: Launches dedicated migration tools for each service type, ensuring consistent migration experiences and increasing successful completion rates
+- **Generic Framework**: Provides reusable content templates for service teams, driving product adoption of modern IBM Cloud services
+- **Customer Self-Service**: Enables independent workload assessment and migration execution, reducing customer churn by simplifying migration complexity
 
 ## Architecture
 {: #architecture}
 
-{[mh]} is a generic framework that renders navigation and UI scaffolding. Service teams contribute their own configuration, content pages, and backend tooling through a pull request to a shared repository.
+{[mh]} is a generic framework for displaying migration content. It displays your resource list and migration status, and launches out to additional migration tools. 
 
 ![Migration Hub architecture overview](/images/m-hub-arch-new.svg "Migration Hub architecture overview"){: caption="Migration Hub architecture: UI flow and team responsibilities" caption-side="bottom"}
 
-## Key benefits of {[mh]}
-{: #key-benefits}
-
-{[mh]} addresses common challenges and pain points in IBM Cloud product migrations:
-
-Centralized Migration Guidance
-:   All product migration information consolidated in one location, eliminating fragmented guidance across different product documentation
-
-Clear Migration Paths
-:   Guidance for complex product transitions like Classic to VPC, Cloud Foundry to Code Engine, or deprecated service replacements
+## Additional considerations
+{: #additional-considerations}
 
 Expert Product Knowledge
-:   Access to specialists who understand both source and target IBM Cloud products
-
-Migration Visibility
-:   Centralized view of product migration progress across IBM Cloud services
-
-Consistent Migration Experience
-:   Uniform quality of migration support across different IBM Cloud products
+:   {[mh]} connects you with specialists who understand both the source and target {{site.data.keyword.cloud_notm}} products.
 
 Feature Parity Understanding
-:   Clear documentation of feature differences between IBM Cloud products
+:   {[mh]} provides clear documentation of feature differences between {{site.data.keyword.cloud_notm}} products to support informed migration decisions.
 
 Post-Migration Optimization
-:   Guidance for optimizing new IBM Cloud products after migration
+:   {[mh]} offers guidance for optimizing your new {{site.data.keyword.cloud_notm}} products after migration is complete.
