@@ -16,7 +16,7 @@ toc:
       - topic: migration-hub.md
         navtitle: About Migration Hub
       - topic: get-engaged.md
-        navtitle: Get engaged with Migration Hub
+        navtitle: What you need to know about Migration Hub
       - include: ../migration-service-engagement/bestpractices.md
       - include: ../migration-service-engagement/roles-responsibilities.md
         navtitle: Roles and responsibilities
