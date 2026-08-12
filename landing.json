@@ -2,12 +2,11 @@
   "version": 2,
   "title": "Migration",
   "introduction": "Migration Hub is your centralized platform for managing migrations between IBM Cloud products and services. Access expert guidance, migration tools, and real-time status tracking for transitions like Classic Infrastructure to VPC and deprecated services to modern replacements.",
-  "console_page": "/migration",
   "section_topics": {
     "links": [
       {
         "title": "Getting started with Migration Hub",
-        "href": "/docs/migration?topic=migration-overview"
+        "href": "/docs/migration?topic=migration-get-engaged"
       },
       {
         "title": "Migration best practices",
@@ -35,10 +34,6 @@
   "section_updates": {
     "view_more": "/docs/migration?topic=migration-release-notes",
     "tiles": [
-      {
-        "date": "30 June 2026",
-        "title": "Migration Hub internal Beta GA Release - Q2 2026"
-      },
       {
         "date": "30 September 2026",
         "title": "Centralized migration tracking and status monitoring"
