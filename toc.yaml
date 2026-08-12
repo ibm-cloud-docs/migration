@@ -17,8 +17,8 @@ toc:
         navtitle: About Migration Hub
       - topic: get-engaged.md
         navtitle: What you need to know about Migration Hub
-      - include: ../migration-service-engagement/bestpractices.md
-      - include: ../migration-service-engagement/roles-responsibilities.md
+      - include: bestpractices.md
+      - include: roles-responsibilities.md
         navtitle: Roles and responsibilities
       - include: ../migration-service-engagement/release-notes.md
   - navgroup:
