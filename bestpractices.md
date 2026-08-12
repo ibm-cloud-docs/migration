@@ -32,12 +32,12 @@ Before you start, assess your current environment and understand what the migrat
 ## Executing your migration
 {: #executing-migration}
 
-1. Access the appropriate migration wizard in Migration Hub for your source product and follow the step-by-step guidance.
+1. Access the appropriate migration wizard in {{site.data.keyword.mh_short}} for your source product and follow the step-by-step guidance.
 1. Schedule migrations during maintenance windows or low-traffic periods.
 1. Test in a non-production environment before migrating production workloads.
 1. Use blue-green deployment strategies where possible to enable quick rollback.
 1. Maintain parallel systems temporarily to ensure a smooth cutover.
-1. Monitor progress through Migration Hub's real-time status tracking.
+1. Monitor progress through {{site.data.keyword.mh_short}}'s real-time status tracking.
 
 After the migration completes, verify success:
 
@@ -59,11 +59,11 @@ After the migration completes, verify success:
 ## Common migration challenges
 {: #common-challenges}
 
-- Feature parity gaps: Some features in your source product may not have direct equivalents in the target. Review Migration Hub's feature comparison documentation and plan alternative implementations.
+- Feature parity gaps: Some features in your source product may not have direct equivalents in the target. Review {{site.data.keyword.mh_short}}'s feature comparison documentation and plan alternative implementations.
 
-- Data migration complexity: Large datasets or complex data structures may require specialized tools. Use Migration Hub's recommended tooling for your specific data migration needs.
+- Data migration complexity: Large datasets or complex data structures may require specialized tools. Use {{site.data.keyword.mh_short}}'s recommended tooling for your specific data migration needs.
 
-- Configuration differences: Product configurations can differ significantly between source and target. Document all configurations and use Migration Hub's guidance to map them appropriately.
+- Configuration differences: Product configurations can differ significantly between source and target. Document all configurations and use {{site.data.keyword.mh_short}}'s guidance to map them appropriately.
 
 - Dependency management: Complex service dependencies can complicate migration order. Map all dependencies before you start and plan the sequence accordingly.
 

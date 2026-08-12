@@ -15,16 +15,15 @@ content-type: release-note
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Release notes for Migration Hub
+# Release notes for {{site.data.keyword.mh_short}}
 {: #relnotes}
 
-Stay up-to-date with the latest Migration Hub updates, new features, and release notes to maximize your cloud experience.
+Stay up-to-date with the latest {{site.data.keyword.mh_short}} updates, new features, and release notes to maximize your cloud experience.
 {: shortdesc}
 
 ## September 2026
 {: #migration-jun3026}
 {: release-note}
 
-First release of Migration Hub
-:   Migration Hub is the centralized platform for customers to engage with critical migration procedure when transitioning between IBM Cloud products and services. The beta release provides the capability to manage migration of the internal services, and to define and run migration tasks.
-
+First release of {{site.data.keyword.mh_short}}
+:   {{site.data.keyword.mh_short}} is the centralized platform for customers to engage with critical migration procedure when transitioning between IBM Cloud products and services. The beta release provides the capability to manage migration of the internal services, and to define and run migration tasks.
