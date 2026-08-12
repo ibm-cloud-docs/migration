@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-08-05"
+lastupdated: "2026-08-12"
 
 keywords: migration hub, migration task, service team, architecture, console shell, migration wizard, config.json, content pages, migrationLoader, framework
 
@@ -37,14 +37,7 @@ Migration Hub delivers powerful features designed to achieve strategic migration
 - **Migration Status Tracking**: Shows real-time progress through Resource Controller attributes, improving migration success rates and minimizing service disruption
 - **Service-Specific Wizards**: Launches dedicated migration tools for each service type, ensuring consistent migration experiences and increasing successful completion rates
 - **Generic Framework**: Provides reusable content templates for service teams, driving product adoption of modern IBM Cloud services
-- **Customer Self-Service**: Enables independent workload assessment and migration execution, reducing customer churn by simplifying migration complexity
-
-## Architecture
-{: #architecture}
-
-Migration Hub is a generic framework for displaying migration content. It displays your resource list and migration status, and launches out to additional migration tools. 
-
-![Migration Hub architecture overview](/images/m-hub-arch-new.svg "Migration Hub architecture overview"){: caption="Migration Hub architecture: UI flow and team responsibilities" caption-side="bottom"}
+- **Customer Self-Service**: Enables independent workload assessment and migration execution, reducing customer churn by simplifying migration complexity.
 
 ## Additional considerations
 {: #additional-considerations}

@@ -15,7 +15,7 @@ subcollection: migration
 # Best practices
 {: #best-practices}
 
-Follow these best practices to plan, execute, and optimize your migrations between IBM Cloud products and services.
+When IBM Cloud notifies you about a service upgrade or deprecation, review these best practices to understand what the change means for your environment and how to prepare. Notifications include details about timelines and required updates so that your workloads remain uninterrupted.
 {: shortdesc}
 
 ## Planning your migration
@@ -24,7 +24,7 @@ Follow these best practices to plan, execute, and optimize your migrations betwe
 Before you start, assess your current environment and understand what the migration involves:
 
 1. Document all resources, dependencies, and configurations in your source product.
-1. Use Migration Hub's discovery features to identify which resources are eligible for migration.
+1. Use {{site.data.keyword.mh_short}}'s discovery features to identify which resources are eligible for migration.
 1. Review feature parity between the source and target products, and identify any deprecated features that require alternative solutions.
 1. Review estimated migration costs and plan for any potential downtime.
 1. Set realistic timelines based on the complexity of your migration and available resources.
@@ -59,18 +59,14 @@ After the migration completes, verify success:
 ## Common migration challenges
 {: #common-challenges}
 
-Feature parity gaps: Some features in your source product may not have direct equivalents in the target. Review Migration Hub's feature comparison documentation and plan alternative implementations.
+- Feature parity gaps: Some features in your source product may not have direct equivalents in the target. Review Migration Hub's feature comparison documentation and plan alternative implementations.
 
-Data migration complexity: Large datasets or complex data structures may require specialized tools. Use Migration Hub's recommended tooling for your specific data migration needs.
+- Data migration complexity: Large datasets or complex data structures may require specialized tools. Use Migration Hub's recommended tooling for your specific data migration needs.
 
-Configuration differences: Product configurations can differ significantly between source and target. Document all configurations and use Migration Hub's guidance to map them appropriately.
+- Configuration differences: Product configurations can differ significantly between source and target. Document all configurations and use Migration Hub's guidance to map them appropriately.
 
-Dependency management: Complex service dependencies can complicate migration order. Map all dependencies before you start and plan the sequence accordingly.
+- Dependency management: Complex service dependencies can complicate migration order. Map all dependencies before you start and plan the sequence accordingly.
 
-## Getting expert assistance
-{: #expert-assistance}
-
-{{site.data.keyword.mh_short}} connects you with IBM Cloud product specialists. Access product-specific expertise through Migration Hub's support channels to get guidance for complex scenarios or custom requirements.
 
 ## Next steps
 {: #next-steps}

@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-08-10"
+lastupdated: "2026-08-12"
 
 keywords: migration hub, customer migration, migration types, migration eligibility, migration knowledge, when to migrate
 
@@ -91,6 +91,5 @@ The following situations are outside the scope of Migration Hub:
 
 If you have questions about a specific migration or need assistance, the following options are available:
 
-- Review the migration overview and steps in the Migration Task within Migration Hub.
 - Contact IBM Cloud support through the IBM Cloud console.
 - Refer to the notifications and documentation linked in the migration communication you received.
