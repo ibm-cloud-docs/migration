@@ -11,24 +11,54 @@ toc:
     label: Migration Hub
   entries:
   - navgroup:
+      id: overview
+      topics:
+      - what-is.md
+      - topic: best-practices.md
+        navtitle: Best practices
+      - topic: release-notes.md
+        navtitle: Release notes
+  - navgroup:
+      id: plan
+      topics:
+      - service-comparison.md
+  - navgroup:
       id: learn
       topics:
       - topic: migration-hub.md
-        navtitle: About Migration Hub
+        navtitle: What is Migration Hub?
+      - topic: bestpractices.md
+      - topic: release-notes.md
+  - navgroup:
+      id: plan
+      topics:
       - topic: get-engaged.md
         navtitle: What you need to know about Migration Hub
-      - topic: bestpractices.md
       - topic: roles-responsibilities.md
         navtitle: Roles and responsibilities
-      - topic: release-notes.md
   - navgroup:
       id: reference
       topics:
-      - include: ../migration-service-engagement/glossary.md
+      - topic: glossary.md
         navtitle: Glossary
   - navgroup:
       id: help
       topics:
-      - include: ../migration-service-engagement/faq.md
-      - include: ../migration-service-engagement/contact.md
-        navtitle: Help and support
+      - topic: faq.md
+      - topicgroup:
+          label: Troubleshooting
+          topics:
+          - topic: troubleshoot-no-tasks.md
+            navtitle: No migration tasks appear
+          - topic: troubleshoot-wizard-unavailable.md
+            navtitle: Migration wizard is unavailable
+          - topic: troubleshoot-status-stale.md
+            navtitle: Migration status is not updating
+          - topic: troubleshoot-not-eligible.md
+            navtitle: Resources not showing as eligible
+          - topic: troubleshoot-migration-failed.md
+            navtitle: Migration failed
+          - topic: troubleshoot-duplicate-notifications.md
+            navtitle: Receiving notifications for a completed migration
+      - topic: contact.md
+        navtitle: Migration help

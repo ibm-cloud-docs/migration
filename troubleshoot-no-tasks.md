@@ -1,0 +1,38 @@
+---
+
+copyright:
+  years: 2026
+lastupdated: "2026-08-18"
+
+keywords: migration hub troubleshooting, migration task missing, migration not showing, no migration tasks
+
+subcollection: migration
+
+content-type: troubleshoot
+
+---
+
+{{site.data.keyword.attribute-definition-list}}
+
+# Why don't I see any migration tasks in {{site.data.keyword.mh_short}}?
+{: #troubleshoot-no-tasks}
+{: troubleshoot}
+{: support}
+
+You accessed {{site.data.keyword.mh_short}} but the dashboard shows no migration tasks or opportunities.
+{: shortdesc}
+
+No migration tasks appear on the {{site.data.keyword.mh_short}} dashboard, even though you received a notification about a required migration.
+{: tsSymptoms}
+
+A migration task appears in {{site.data.keyword.mh_short}} only when all of the following conditions are true: your action is required, your affected resources are identified, a migration path is available, and a service team{: term} is responsible for the migration. If any of these conditions are not met, the task will not display. Additionally, the task may not be visible if you are viewing an account that does not contain the affected resources, or if you do not have the required IAM{: term} permissions to see those resources.
+{: tsCauses}
+
+Try the following steps to resolve the issue:
+
+1. Confirm that you are logged in to the correct {{site.data.keyword.cloud_notm}} account. The affected resources must be in the account you are viewing.
+1. Review the notification you received for the affected resource types and check whether those resource types exist in your account.
+1. Verify that you have the appropriate IAM roles and access policies to view the resources listed in the migration notification. For more information, see [Managing access in IBM Cloud](/docs/account?topic=account-cloudaccess).
+1. If the notification specified a start date for the migration task, confirm that date has passed. Migration tasks become visible in {{site.data.keyword.mh_short}} approximately 60–90 days before the end date.
+1. If none of the above apply, contact IBM Cloud support through the {{site.data.keyword.cloud_notm}} console for assistance.
+{: tsResolve}
