@@ -11,22 +11,12 @@ toc:
     label: Migration Hub
   entries:
   - navgroup:
-      id: overview
-      topics:
-      - what-is.md
-      - topic: best-practices.md
-        navtitle: Best practices
-      - topic: release-notes.md
-        navtitle: Release notes
-  - navgroup:
-      id: plan
-      topics:
-      - service-comparison.md
-  - navgroup:
       id: learn
       topics:
       - topic: migration-hub.md
         navtitle: What is Migration Hub?
+      - topic: understanding-migration-topics.md
+        navtitle: Understanding migration topics
       - topic: bestpractices.md
       - topic: release-notes.md
   - navgroup:

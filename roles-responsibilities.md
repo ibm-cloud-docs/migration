@@ -3,11 +3,11 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-08-18"
+lastupdated: "2026-08-19"
 
 keywords: migration hub roles, migration responsibilities, migration stakeholders
 
-subcollection: migration-service-engagement
+subcollection: migration
 
 ---
 

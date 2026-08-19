@@ -3,11 +3,11 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-08-18"
+lastupdated: "2026-08-19"
 
 keywords: migration hub glossary, definitions, migration terms, lucene query, migration wizard, Resource Controller, service team, migration topic, IAM, blue-green deployment, Classic Infrastructure, VPC
 
-subcollection: migration-service-engagement
+subcollection: migration
 
 ---
 
@@ -72,4 +72,3 @@ Service team
 
 VPC (Virtual Private Cloud)
 :   The current-generation IBM Cloud infrastructure that provides logically isolated networking, enhanced security, and greater scalability compared to Classic Infrastructure. VPC is the target platform for many {{site.data.keyword.mh_short}} migration tasks, including Classic Infrastructure to VPC migrations.
-

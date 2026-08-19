@@ -18,7 +18,7 @@
       },
       {
         "title": "Getting help",
-        "href": "/docs/migration?topic=migration-help-and-support"
+        "href": "/docs/migration?topic=migration-contact"
       }
     ]
   },
@@ -32,7 +32,7 @@
     }
   ],
   "section_updates": {
-    "view_more": "/docs/migration?topic=migration-release-notes",
+    "view_more": "/docs/migration?topic=migration-relnotes",
     "tiles": [
       {
         "date": "30 September 2026",

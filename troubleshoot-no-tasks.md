@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-18"
+lastupdated: "2026-08-19"
 
 keywords: migration hub troubleshooting, migration task missing, migration not showing, no migration tasks
 
@@ -32,7 +32,7 @@ Try the following steps to resolve the issue:
 
 1. Confirm that you are logged in to the correct {{site.data.keyword.cloud_notm}} account. The affected resources must be in the account you are viewing.
 1. Review the notification you received for the affected resource types and check whether those resource types exist in your account.
-1. Verify that you have the appropriate IAM roles and access policies to view the resources listed in the migration notification. For more information, see [Managing access in IBM Cloud](/docs/account?topic=account-cloudaccess).
+1. Verify that you have the appropriate IAM roles and access policies to view the resources listed in the migration notification. For more information, see [Managing access in IBM Cloud](/docs/iam?topic=iam-cloudaccess).
 1. If the notification specified a start date for the migration task, confirm that date has passed. Migration tasks become visible in {{site.data.keyword.mh_short}} approximately 60–90 days before the end date.
 1. If none of the above apply, contact IBM Cloud support through the {{site.data.keyword.cloud_notm}} console for assistance.
 {: tsResolve}

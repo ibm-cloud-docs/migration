@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-18"
+lastupdated: "2026-08-19"
 
 keywords: migration best practices, migration planning, migration strategy, product migration, service migration
 
@@ -75,5 +75,5 @@ After the migration completes, confirm that everything is working as expected:
 {: #next-steps}
 
 - [Review frequently asked questions](/docs/migration?topic=migration-faq)
-- [Troubleshoot common migration issues](/docs/migration?group=Troubleshooting)
+- [Troubleshoot common migration issues](/docs/migration?group=troubleshooting)
 - [Get help with your migration](/docs/migration?topic=migration-contact)
