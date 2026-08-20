@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-18"
+lastupdated: "2026-08-20"
 
 keywords: migration hub troubleshooting, migration wizard unavailable, migration wizard disabled, start migration button
 
@@ -25,7 +25,7 @@ You can see a migration task in {{site.data.keyword.mh_short}} but the option to
 A migration task is listed in {{site.data.keyword.mh_short}}, but the **Start migration** button or migration wizard link is disabled or does not respond.
 {: tsSymptoms}
 
-Migration wizards{: term} are service-specific tools that are launched from within {{site.data.keyword.mh_short}}. The wizard may be unavailable if the service team{: term} has not yet published the migration tooling, if the resource does not meet the eligibility criteria, or if a required prerequisite has not been completed.
+Migration wizards are service-specific tools that are launched from within {{site.data.keyword.mh_short}}. The wizard may be unavailable if the service team has not yet published the migration tooling, if the resource does not meet the eligibility criteria, or if a required prerequisite has not been completed.
 {: tsCauses}
 
 Try the following steps:

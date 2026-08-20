@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-19"
+lastupdated: "2026-08-20"
 
 keywords: migration hub faq, migration questions, product migration, service migration, classic to vpc, cloud foundry migration
 
@@ -102,13 +102,13 @@ The ability to migrate multiple resources simultaneously depends on the specific
 {: #faq-preparation}
 {: faq}
 
-Proper preparation is essential for successful migration. Start by documenting your current environment, identifying all dependencies, reviewing feature parity between products, and understanding costs and timelines. Use {{site.data.keyword.mh_short}}'s planning tools and follow the best practices outlined in [Migration best practices](/docs/migration-hub?topic=migration-hub-migration-best-practices). Test your migration in non-production environments before migrating production workloads.
+Proper preparation is essential for successful migration. Start by documenting your current environment, identifying all dependencies, reviewing feature parity between products, and understanding costs and timelines. Use {{site.data.keyword.mh_short}}'s planning tools and follow the best practices outlined in [Migration best practices](/docs/migration?topic=migration-best-practices). Test your migration in non-production environments before migrating production workloads.
 
 ## What if I encounter issues during migration?
 {: #faq-migration-issues}
 {: faq}
 
-If you encounter issues during migration, {{site.data.keyword.mh_short}} provides troubleshooting guidance and access to support resources. Review the [Troubleshooting migrations](/docs/migration-hub?topic=migration-hub-troubleshoot-xx) documentation for common issues and solutions. You can also contact IBM Cloud support for assistance with complex migration problems.
+If you encounter issues during migration, {{site.data.keyword.mh_short}} provides troubleshooting guidance and access to support resources. Review the [Troubleshooting migrations](/docs/migration?group=migration-troubleshooting) documentation for common issues and solutions. You can also contact IBM Cloud support for assistance with complex migration problems.
 
 ## Is {{site.data.keyword.mh_short}} available in all regions?
 {: #faq-regional-availability}
@@ -120,4 +120,4 @@ If you encounter issues during migration, {{site.data.keyword.mh_short}} provide
 {: #faq-updates}
 {: faq}
 
-{{site.data.keyword.mh_short}} is continuously enhanced with new migration paths, improved tooling, and updated guidance. As IBM Cloud products evolve and new services are introduced, {{site.data.keyword.mh_short}} is updated to support relevant migration scenarios. Check the [Release notes](/docs/migration-hub?topic=migration-hub-relnotes) for the latest updates and new features.
+{{site.data.keyword.mh_short}} is continuously enhanced with new migration paths, improved tooling, and updated guidance. As IBM Cloud products evolve and new services are introduced, {{site.data.keyword.mh_short}} is updated to support relevant migration scenarios. Check the [Release notes](/docs/migration?topic=migration-relnotes) for the latest updates and new features.

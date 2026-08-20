@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-18"
+lastupdated: "2026-08-20"
 
 keywords: migration hub troubleshooting, migration failed, migration error, migration recovery, migration rollback
 
@@ -30,10 +30,10 @@ Migration failures can occur for several reasons, including insufficient permiss
 
 Try the following steps:
 
-1. Review the error message displayed in the migration wizard{: term} or in {{site.data.keyword.mh_short}} for details about what failed.
-1. Check whether you have the necessary IAM{: term} roles and access policies for both the source and target services.
+1. Review the error message displayed in the migration wizard or in {{site.data.keyword.mh_short}} for details about what failed.
+1. Check whether you have the necessary IAM roles and access policies for both the source and target services.
 1. If the error indicates a dependency issue, review the related resources and migrate any dependencies before retrying.
-1. If you used a blue-green deployment{: term} or parallel deployment strategy, verify that the source environment is still intact and usable while you troubleshoot.
+1. If you used a blue-green deployment or parallel deployment strategy, verify that the source environment is still intact and usable while you troubleshoot.
 1. Retry the migration after resolving the identified issue. If the wizard supports it, resume from the last successful step rather than restarting from the beginning.
 1. If the failure persists, open a support case through the {{site.data.keyword.cloud_notm}} console and include the migration task ID and any error codes shown in {{site.data.keyword.mh_short}}.
 {: tsResolve}

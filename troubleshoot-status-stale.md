@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-18"
+lastupdated: "2026-08-20"
 
 keywords: migration hub troubleshooting, migration status not updating, migration status stale, migration progress
 
@@ -25,7 +25,7 @@ The migration status in {{site.data.keyword.mh_short}} does not reflect progress
 After completing one or more migration steps, the status in {{site.data.keyword.mh_short}} still shows the previous state and does not update to reflect your progress.
 {: tsSymptoms}
 
-{{site.data.keyword.mh_short}} tracks migration progress through Resource Controller{: term} attributes. Status updates depend on the service reporting the change back to Resource Controller. Delays can occur if the service has not yet propagated the status change, or if there is a temporary issue with the status reporting pipeline.
+{{site.data.keyword.mh_short}} tracks migration progress through Resource Controller attributes. Status updates depend on the service reporting the change back to Resource Controller. Delays can occur if the service has not yet propagated the status change, or if there is a temporary issue with the status reporting pipeline.
 {: tsCauses}
 
 Try the following steps:

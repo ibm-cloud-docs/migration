@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-08-19"
+lastupdated: "2026-08-20"
 
 keywords: migration hub glossary, definitions, migration terms, lucene query, migration wizard, Resource Controller, service team, migration topic, IAM, blue-green deployment, Classic Infrastructure, VPC
 
@@ -13,7 +13,7 @@ subcollection: migration
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Glossary
+# Glossary of {{site.data.keyword.mh_short}} keywords
 {: #glossary}
 
 The following terms are used in {{site.data.keyword.mh_short}} documentation.

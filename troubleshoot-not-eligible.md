@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-18"
+lastupdated: "2026-08-20"
 
 keywords: migration hub troubleshooting, resources not eligible, migration eligibility, missing resources
 
@@ -21,10 +21,10 @@ content-type: troubleshoot
 You believe certain resources in your account should be included in a migration task, but they do not appear in the eligible resources list.
 {: shortdesc}
 
-Resources that you expect to be eligible for migration are not listed under the migration task in {{site.data.keyword.mh_short}}, or the eligible resource count is lower than expected.
+Resources that you expect to be eligible for migration are not listed under the migration task in {{site.data.keyword.mh_short}}, or the eligible resource count is fewer than expected.
 {: tsSymptoms}
 
-{{site.data.keyword.mh_short}} identifies eligible resources using Lucene queries{: term} based on the criteria defined by the service team{: term}. A resource may not appear if it does not match the query criteria, if it is in a state that makes it ineligible (for example, already migrated, deprovisioned, or in an error state), or if the resource belongs to a different account.
+{{site.data.keyword.mh_short}} identifies eligible resources using Lucene queries based on the criteria defined by the service team. A resource may not appear if it does not match the query criteria, if it is in a state that makes it ineligible (for example, already migrated, deprovisioned, or in an error state), or if the resource belongs to a different account.
 {: tsCauses}
 
 Try the following steps:

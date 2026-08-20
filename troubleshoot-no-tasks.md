@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-19"
+lastupdated: "2026-08-20"
 
 keywords: migration hub troubleshooting, migration task missing, migration not showing, no migration tasks
 
@@ -25,7 +25,7 @@ You accessed {{site.data.keyword.mh_short}} but the dashboard shows no migration
 No migration tasks appear on the {{site.data.keyword.mh_short}} dashboard, even though you received a notification about a required migration.
 {: tsSymptoms}
 
-A migration task appears in {{site.data.keyword.mh_short}} only when all of the following conditions are true: your action is required, your affected resources are identified, a migration path is available, and a service team{: term} is responsible for the migration. If any of these conditions are not met, the task will not display. Additionally, the task may not be visible if you are viewing an account that does not contain the affected resources, or if you do not have the required IAM{: term} permissions to see those resources.
+A migration task appears in {{site.data.keyword.mh_short}} only when all of the following conditions are true: your action is required, your affected resources are identified, a migration path is available, and a service team is responsible for the migration. If any of these conditions are not met, the task will not display. Additionally, the task may not be visible if you are viewing an account that does not contain the affected resources, or if you do not have the required IAM permissions to see those resources.
 {: tsCauses}
 
 Try the following steps to resolve the issue:

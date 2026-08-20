@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-19"
+lastupdated: "2026-08-20"
 
 keywords: migration best practices, migration planning, migration strategy, product migration, service migration
 
@@ -32,10 +32,10 @@ Before you start, assess your current environment and understand what the migrat
 ## Executing your migration
 {: #executing-migration}
 
-1. Launch the migration wizard{: term} in {{site.data.keyword.mh_short}} for your source product and follow the guided steps.
+1. Launch the migration wizard in {{site.data.keyword.mh_short}} for your source product and follow the guided steps.
 1. Schedule migrations during maintenance windows or low-traffic periods.
 1. Test in a non-production environment before migrating production workloads.
-1. Use blue-green deployments{: term} where possible so you can roll back quickly if needed.
+1. Use blue-green deployments where possible so you can roll back quickly if needed.
 1. Keep source and target environments running in parallel until cutover is complete.
 1. Track progress using {{site.data.keyword.mh_short}}'s real-time status tracking.
 

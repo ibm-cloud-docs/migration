@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-18"
+lastupdated: "2026-08-20"
 
 keywords: migration hub troubleshooting, migration notifications, migration already completed, duplicate notifications
 
@@ -24,7 +24,7 @@ You continue to receive migration reminder notifications even though you have al
 IBM Cloud continues to send migration reminder notifications after you have completed the migration steps and consider the migration finished.
 {: tsSymptoms}
 
-Reminder notifications are generated based on the migration status recorded in {{site.data.keyword.mh_short}}. If the migration status in {{site.data.keyword.mh_short}} has not been updated to reflect completion — for example, because the service has not yet propagated the final status to Resource Controller{: term} — the notification system may still treat the migration as incomplete.
+Reminder notifications are generated based on the migration status recorded in {{site.data.keyword.mh_short}}. If the migration status in {{site.data.keyword.mh_short}} has not been updated to reflect completion — for example, because the service has not yet propagated the final status to Resource Controller — the notification system may still treat the migration as incomplete.
 {: tsCauses}
 
 Try the following steps:

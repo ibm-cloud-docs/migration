@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-08-18"
+lastupdated: "2026-08-20"
 
 keywords: migration hub, customer migration, migration types, migration eligibility, migration knowledge, when to migrate
 
@@ -25,10 +25,10 @@ subcollection: migration
 You may be directed to {{site.data.keyword.mh_short}} when any of the following situations affect your IBM Cloud account:
 
 - A service or feature you use is being deprecated and you must stop using it by a specific date.
-- Your resources are being moved to new infrastructure — for example, from Classic Infrastructure{: term} to VPC{: term} — and you must take action to complete the move.
+- Your resources are being moved to new infrastructure — for example, from Classic Infrastructure to VPC — and you must take action to complete the move.
 - A major version or architecture change requires you to re-provision, reconfigure, or migrate your data.
 - Resources in your account must relocate to a different region to remain in service.
-- Some migration topics{: term} have a specific end date by which affected resources must be migrated.
+- Some migration topics have a specific end date by which affected resources must be migrated.
 
 You will receive notifications from IBM Cloud with details about your specific situation and the actions required.
 
@@ -75,7 +75,7 @@ A {{site.data.keyword.mh_short}} task applies to your account when all of the fo
 1. **Your action is required.** If IBM can complete the migration with no customer-visible change, it will not appear in the Hub.
 2. **Your affected resources are identified.** {{site.data.keyword.mh_short}} uses a query to discover which resources in your account are affected. You can review the scope before taking action.
 3. **A migration path is available.** You will have a documented path to complete the migration — step-by-step instructions, a script to run, or a guided wizard in {{site.data.keyword.mh_short}}.
-4. **A service team{: term} is responsible.** The team that owns the service you are migrating from maintains the migration content and is available to support you.
+4. **A service team is responsible.** The team that owns the service you are migrating from maintains the migration content and is available to support you.
 
 ### Migrations not supported by {{site.data.keyword.mh_short}}
 {: #out-of-scope}

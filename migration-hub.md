@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-08-19"
+lastupdated: "2026-08-20"
 
 keywords: migration hub, migration task, service team, architecture, console shell, migration wizard, config.json, content pages, migrationLoader, framework
 
@@ -13,7 +13,7 @@ subcollection: migration
 
 {{site.data.keyword.attribute-definition-list}}
 
-# About {{site.data.keyword.mh_short}}
+# About Migration Hub
 {: #about-migration-hub}
 
 The IBM Cloud {{site.data.keyword.mh_short}} is the centralized platform to view and analyze migration topics and plan transitions between {{site.data.keyword.cloud_notm}} products and services. {{site.data.keyword.mh_short}} focuses on migrations within the IBM Cloud ecosystem, such as migrating from Classic Infrastructure to VPC, between other appropriate products and services, or from deprecated services to their modern replacements. 
