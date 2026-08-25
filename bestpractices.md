@@ -82,4 +82,4 @@ Review these known challenges and how to address them before you start your migr
 
 - [Review frequently asked questions](/docs/migration?topic=migration-faq)
 - [Troubleshoot common migration issues](/docs/migration?group=troubleshooting)
-- [Get help with your migration](/docs/migration?topic=migration-contact)
+- [Get help with your migration](/docs/migration?topic=migration-help)

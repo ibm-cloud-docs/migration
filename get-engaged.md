@@ -91,5 +91,5 @@ The following situations are outside the scope of {{site.data.keyword.mh_short}}
 
 If you have questions about a specific migration or need assistance, the following options are available:
 
-- Contact [{{site.data.keyword.cloud_notm}} support](/docs/migration?topic=migration-help}) through the IBM Cloud console.
+- Contact [{{site.data.keyword.cloud_notm}} support](/docs/migration?topic=migration-help) through the IBM Cloud console.
 - Refer to the notifications and documentation linked in the migration communication you received.
