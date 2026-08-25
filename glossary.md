@@ -64,8 +64,8 @@ Service product team
 ## T
 {: #glossary-t}
 
-Task ID
-:   A unique identifier assigned to each migration task in {{site.data.keyword.mh_short}}. The task ID is displayed in the migration task details and is used to reference a specific migration when contacting IBM Cloud support or reporting an issue. Include the task ID when you open a support case so that the support team can locate your migration quickly.
+Topic ID
+:   A unique identifier assigned to each migration task in {{site.data.keyword.mh_short}}. The topic ID is displayed in the migration task details and is used to reference a specific migration when contacting IBM Cloud support or reporting an issue. Include the topic ID when you open a support case so that the support team can locate your migration quickly.
 
 ## V
 {: #glossary-v}
