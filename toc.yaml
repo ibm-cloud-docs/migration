@@ -16,7 +16,9 @@ toc:
       - topic: migration-hub.md
         navtitle: What is Migration Hub?
       - topic: bestpractices.md
+        navtitle: Best practices
       - topic: release-notes.md
+        navtitle: Release notes
   - navgroup:
       id: plan
       topics:
@@ -33,7 +35,7 @@ toc:
       id: help
       topics:
       - topic: faq.md
-        navtitle: Frequently asked questions
+        navtitle: FAQs
       - topicgroup:
           label: Troubleshooting
           id: troubleshooting
