@@ -35,7 +35,7 @@ toc:
       id: help
       topics:
       - topic: faq.md
-        navtitle: FAQs
+        navtitle: FAQs for Migration Hub
       - topicgroup:
           label: Troubleshooting
           id: troubleshooting
