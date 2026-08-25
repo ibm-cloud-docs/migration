@@ -16,7 +16,7 @@ subcollection: migration
 # Get help with {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}}
 {: #help}
 
-Find resources to get help with IBM Cloud migration hub, including contact options, office hours, support tickets, and links to additional IBM Cloud support resources.
+Find resources to get help with {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}}, including contact options, support tickets, and links to additional IBM Cloud support resources.
 {: shortdesc}
 
 ## Getting support
@@ -25,7 +25,7 @@ Find resources to get help with IBM Cloud migration hub, including contact optio
 ### Step 1: Engage the help popup
 {: #engage-help-popup}
 
-Launch the **Migration Help** popup from multiple locations within {{site.data.keyword.mh_short}}. The popup captures the context of your current operation so that support requests include relevant details.
+You can launch the **Migration help** popup from multiple locations within {{site.data.keyword.mh_short}}. The popup captures the context of your current operation so that support requests include relevant details.
 
 ### Step 2: Self-help deflection
 {: #self-help-deflection}
@@ -50,18 +50,10 @@ If self-service resources do not resolve your issue, click **I still need help**
 
 Click **Continue to Support** to proceed.
 
-### Step 4: Normal case screen
+### Step 4: Support case
 {: #normal-case-screen}
 
-The support case form is limited to the Migration Hub topic only and includes the following characteristics:
-
-- Bypasses the Basic Support technical case limitation.
-- Limits users to the migration topic only.
-- Single case type: **Migration Hub**.
-- Uses the existing Support Center launch-in-context.
-- Subject and description fields can be pre-populated if enough context is available from the current operation.
-
-The case form pre-fills with the following suggested content:
+The support case form is limited to the {{site.data.keyword.mh_short}} topic only. The case form pre-fills with the following suggested content:
 
 - **Topic**: Migration Hub
 - **Subject**: Problem or question with a Migration Hub topic (for example, Containers)
