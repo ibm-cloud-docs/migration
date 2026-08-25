@@ -2,9 +2,9 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-20"
+lastupdated: "2026-08-25"
 
-keywords: migration best practices, migration planning, migration strategy, product migration, service migration
+keywords: ibm cloud migration best practices, cloud service upgrade, migration planning, migration strategy, service deprecation, workload migration
 
 subcollection: migration
 
@@ -12,16 +12,16 @@ subcollection: migration
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Best practices
+# Preparing for {{site.data.keyword.cloud_notm}} service upgrades: {{site.data.keyword.mh_short}} best practices
 {: #best-practices}
 
-When {{site.data.keyword.cloud_notm}} notifies you about a service upgrade or deprecation, review these best practices to understand what the change means for your environment and how to prepare. Notifications include details about timelines and required updates so that your workloads remain uninterrupted.
+Learn how to prepare for {{site.data.keyword.cloud_notm}} service upgrades and deprecations, ensuring uninterrupted workloads and smooth migrations with these best practices.
 {: shortdesc}
 
 ## Planning your migration
 {: #planning-migration}
 
-Before you start, assess your current environment and understand what the migration involves:
+Assess your current environment and understand what the migration involves before you begin.
 
 1. Document your resources, dependencies, and configurations.
 1. Use {{site.data.keyword.mh_short}}'s discovery features to identify which resources are eligible for migration.
@@ -32,6 +32,8 @@ Before you start, assess your current environment and understand what the migrat
 ## Executing your migration
 {: #executing-migration}
 
+Follow these steps to run your migration with minimal risk and disruption.
+
 1. Launch the migration wizard in {{site.data.keyword.mh_short}} for your source product and follow the guided steps.
 1. Schedule migrations during maintenance windows or low-traffic periods.
 1. Test in a non-production environment before migrating production workloads.
@@ -39,10 +41,10 @@ Before you start, assess your current environment and understand what the migrat
 1. Keep source and target environments running in parallel until cutover is complete.
 1. Track progress using {{site.data.keyword.mh_short}}'s real-time status tracking.
 
-### Verifying success
+## Verifying success
 {: #verifying-success}
 
-After the migration completes, confirm that everything is working as expected:
+After the migration completes, confirm that your resources and workloads are functioning as expected.
 
 1. Verify that all resources migrated to the target product.
 1. Test for expected behavior and data integrity.
@@ -51,6 +53,8 @@ After the migration completes, confirm that everything is working as expected:
 
 ## Post-migration optimization
 {: #post-migration}
+
+Take advantage of your new environment to improve performance, reduce costs, and document what you learned.
 
 1. Explore features in the target product that weren't available before.
 1. Optimize configurations for the new product's architecture.
@@ -61,6 +65,8 @@ After the migration completes, confirm that everything is working as expected:
 
 ## Common migration challenges
 {: #common-challenges}
+
+Review these known challenges and how to address them before you start your migration.
 
 - **Feature parity gaps**: Some features in your source product may not have direct equivalents in the target. Review {{site.data.keyword.mh_short}}'s feature comparison documentation and plan alternative implementations.
 

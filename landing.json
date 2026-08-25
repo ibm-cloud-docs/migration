@@ -1,7 +1,7 @@
 {
   "version": 2,
   "title": "Migration Hub",
-  "introduction": "Your centralized platform for managing migrations across IBM Cloud products and services. Access expert guidance, migration tools, and real-time status tracking for transitions such as Classic Infrastructure to VPC and deprecated services to modern replacements.",
+  "introduction": "Your centralized platform for managing migrations across IBM Cloud products and services. It identifies the resources in your account that require action, helps you plan your migration path, and guides you through each step — with instructions, documentation, and tools for transitions.",
   "section_topics": {
     "links": [
       {

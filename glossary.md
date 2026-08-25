@@ -3,9 +3,9 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-08-20"
+lastupdated: "2026-08-25"
 
-keywords: migration hub glossary, definitions, migration terms, lucene query, migration wizard, Resource Controller, service team, migration topic, IAM, blue-green deployment, Classic Infrastructure, VPC
+keywords: ibm cloud migration glossary, cloud migration terms, migration definitions, migration hub glossary, blue-green deployment, IAM, resource controller, migration wizard, VPC migration
 
 subcollection: migration
 
@@ -13,10 +13,10 @@ subcollection: migration
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Glossary of {{site.data.keyword.mh_short}} keywords
+# {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}} glossary: Key terms and definitions
 {: #glossary}
 
-The following terms are used in {{site.data.keyword.mh_short}} documentation.
+Understand the key terms and definitions used in IBM Cloud migration documentation, including blue-green deployment, IAM, and resource controller concepts.
 {: shortdesc}
 
 ## B
@@ -50,22 +50,22 @@ Migration topic
 :   A specific migration activity that appears as a task in the {{site.data.keyword.mh_short}} dashboard. A migration topic represents a single service team's migration offering — including the overview content, eligible resource list, and entry point into the migration wizard. Customers interact with migration topics to review requirements, track progress, and complete their migration.
 
 {{site.data.keyword.mh_short}}
-:   The IBM Cloud {{site.data.keyword.mh_short}} is the centralized platform for IBM Cloud service teams and customers to plan, coordinate, and execute migrations between IBM Cloud products and services. It provides a unified console experience for all migration motions, including Classic Infrastructure to VPC, deprecated service replacements, version upgrades, and regional relocations. The platform is generic and data-driven — service teams supply content through a pull request rather than modifying application code.
+:   The IBM Cloud {{site.data.keyword.mh_short}} is the centralized platform for IBM Cloud service teams and customers to plan, coordinate, and execute migrations between IBM Cloud products and services. It provides a unified console experience for all migration topics, including Classic Infrastructure to VPC, deprecated service replacements, version upgrades, and regional relocations. The platform is generic and data-driven — service teams supply content through a pull request rather than modifying application code.
 
 Migration wizard
 :   Service-owned tooling that customers are deep-linked into from the {{site.data.keyword.mh_short}} asset table when they click **Migrate** on a resource. The wizard is built and hosted by the service team outside the `czero/ui` repository. Its URL is configured in `migrationExecution.wizardUrl` in `config.json`.
 
-## R
-{: #glossary-r}
-
-Resource Controller (RC)
-:   The IBM Cloud service that manages the lifecycle of service instances. Service teams write migration extension attributes (`migration.step`, `migration.percent`, and optional fields) to each resource instance through the Resource Controller. These attributes drive real-time migration status tracking in {{site.data.keyword.mh_short}}.
-
 ## S
 {: #glossary-s}
 
-Service team
-:   An IBM Cloud service team that engages with {{site.data.keyword.mh_short}} to provide migration tooling, documentation, and support for customers migrating to or from their service. A service team typically includes a Product Management Lead, a DevOps Lead and team, a Development Architect, and a Design Lead. The migration is scoped to the specific service owned by that team.
+Service product team
+:   An {{site.data.keyword.cloud_notm}} service team that engages with {{site.data.keyword.mh_short}} to provide migration tooling, documentation, and support for customers migrating to or from their service. A service team typically includes a Product Management Lead, a DevOps Lead and team, a Development Architect, and a Design Lead. The migration is scoped to the specific service owned by that team.
+
+## T
+{: #glossary-t}
+
+Task ID
+:   A unique identifier assigned to each migration task in {{site.data.keyword.mh_short}}. The task ID is displayed in the migration task details and is used to reference a specific migration when contacting IBM Cloud support or reporting an issue. Include the task ID when you open a support case so that the support team can locate your migration quickly.
 
 ## V
 {: #glossary-v}

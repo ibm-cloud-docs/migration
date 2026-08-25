@@ -33,8 +33,10 @@ toc:
       id: help
       topics:
       - topic: faq.md
+        navtitle: Frequently asked questions
       - topicgroup:
           label: Troubleshooting
+          id: troubleshooting
           topics:
           - topic: troubleshoot-no-tasks.md
             navtitle: No migration tasks appear

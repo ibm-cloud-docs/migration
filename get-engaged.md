@@ -3,9 +3,9 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-08-20"
+lastupdated: "2026-08-25"
 
-keywords: migration hub, customer migration, migration types, migration eligibility, migration knowledge, when to migrate
+keywords: ibm cloud migrations, migration hub, managing cloud migrations, service deprecation migration, infrastructure upgrade, cloud migration eligibility
 
 subcollection: migration
 
@@ -13,7 +13,7 @@ subcollection: migration
 
 {{site.data.keyword.attribute-definition-list}}
 
-# What you need to know about {{site.data.keyword.mh_short}}
+# Managing IBM Cloud migrations with {{site.data.keyword.mh_short}}
 {: #get-engaged}
 
 {{site.data.keyword.mh_short}} is the centralized platform for managing your IBM Cloud migrations. If you are affected by a service deprecation, infrastructure upgrade, or any other IBM-initiated change that requires action on your resources, {{site.data.keyword.mh_short}} provides the tools and information to help you complete the migration.
@@ -91,5 +91,5 @@ The following situations are outside the scope of {{site.data.keyword.mh_short}}
 
 If you have questions about a specific migration or need assistance, the following options are available:
 
-- Contact IBM Cloud support through the IBM Cloud console.
+- Contact [{{site.data.keyword.cloud_notm}} support](/docs/migration?topic=migration-help}) through the IBM Cloud console.
 - Refer to the notifications and documentation linked in the migration communication you received.

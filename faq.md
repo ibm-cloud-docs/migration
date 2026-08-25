@@ -2,9 +2,9 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-20"
+lastupdated: "2026-08-25"
 
-keywords: migration hub faq, migration questions, product migration, service migration, classic to vpc, cloud foundry migration
+keywords: migration hub faq, ibm cloud migration questions, migration eligibility, migration types, classic to vpc, cloud foundry migration, migration planning, migration costs
 
 subcollection: migration
 
@@ -14,17 +14,17 @@ content-type: faq
 
 {{site.data.keyword.attribute-definition-list}}
 
-# FAQs for {{site.data.keyword.mh_short}}
+# {{site.data.keyword.mh_short}} FAQs
 {: #faq}
 
-Frequently asked questions for {{site.data.keyword.mh_short}} include questions about supported migration types, migration planning, costs, and timelines. To find all FAQs for {{site.data.keyword.cloud}}, see the [FAQ library](/docs/faqs).
+Get answers to frequently asked questions about {{site.data.keyword.cloud_notm}} migration hub, including supported migration types, eligibility, planning, costs, and timelines.
 {: shortdesc}
 
 ## What types of migrations does {{site.data.keyword.mh_short}} support?
 {: #faq-migration-types}
 {: faq}
 
-{{site.data.keyword.mh_short}} focuses on migrations within the IBM Cloud ecosystem. This includes product-to-product migrations such as Classic Infrastructure to VPC, Cloud Foundry to Code Engine, and transitions from deprecated services to their modern replacements. The MVP release does not support migrations from external sources into IBM Cloud, though this may be added in future releases.
+{{site.data.keyword.mh_short}} focuses on migrations within the {{site.data.keyword.cloud_notm}} ecosystem. This includes product-to-product migrations such as Classic Infrastructure to VPC, Cloud Foundry to Code Engine, and transitions from deprecated services to their modern replacements. The MVP release does not support migrations from external sources into {{site.data.keyword.cloud_notm}}, though this may be added in future releases.
 
 ## How do I know if my resources are eligible for migration?
 {: #faq-eligible-resources}
@@ -38,11 +38,17 @@ Frequently asked questions for {{site.data.keyword.mh_short}} include questions 
 
 {{site.data.keyword.mh_short}} provides comprehensive information for each migration topic, including migration rationale, benefits, estimated costs, timelines, feature parity comparisons, and potential impacts. You'll also find step-by-step guidance through service-specific migration wizards and access to specialized migration tools.
 
-## Can I migrate resources from external cloud providers to IBM Cloud?
+## Can I migrate resources from external cloud providers to {{site.data.keyword.cloud_notm}}?
 {: #faq-external-migrations}
 {: faq}
 
-The current MVP release of {{site.data.keyword.mh_short}} focuses specifically on migrations within the IBM Cloud ecosystem. Migrations from external sources (such as AWS, Azure, or Google Cloud) into IBM Cloud are not currently supported but may be valuable additions in future releases.
+The current MVP release of {{site.data.keyword.mh_short}} focuses specifically on migrations within the {{site.data.keyword.cloud_notm}} ecosystem. Migrations from external sources (such as AWS, Azure, or Google Cloud) into {{site.data.keyword.cloud_notm}} are not currently supported but may be valuable additions in future releases.
+
+## Do all migrations operate in the same way with workflow and documentation?
+{: #faq-operate-all}
+{: faq}
+
+No. Each migration topic has its own workflow, documentation, and tooling, maintained by the service team responsible for that migration. Some migrations use a guided wizard, others provide step-by-step instructions or a script to run, and timelines vary by complexity. What is consistent across all migrations is that {{site.data.keyword.mh_short}} identifies the resources that require action, provides a documented path to completion, and connects you with the responsible service team. For more information, see [What you need to know about {{site.data.keyword.mh_short}}](/docs/migration?topic=migration-get-engaged).
 
 ## How long does a typical migration take?
 {: #faq-migration-duration}
@@ -84,7 +90,7 @@ Rollback capabilities depend on the specific migration type and your implementat
 {: #faq-permissions}
 {: faq}
 
-You need appropriate access permissions to view and manage your IBM Cloud resources. The specific permissions required depend on the resources you're migrating and the target products. Ensure you have the necessary IAM roles and access policies before starting a migration. For more information, see [Managing access in IBM Cloud](/docs/iam?topic=iam-cloudaccess).
+You need appropriate access permissions to view and manage your {{site.data.keyword.cloud_notm}} resources. The specific permissions required depend on the resources you're migrating and the target products. Ensure you have the necessary IAM roles and access policies before starting a migration. For more information, see [Managing access in {{site.data.keyword.cloud_notm}}](/docs/iam?topic=iam-cloudaccess).
 
 ## What happens to my data during migration?
 {: #faq-data-migration}
@@ -108,16 +114,16 @@ Proper preparation is essential for successful migration. Start by documenting y
 {: #faq-migration-issues}
 {: faq}
 
-If you encounter issues during migration, {{site.data.keyword.mh_short}} provides troubleshooting guidance and access to support resources. Review the [Troubleshooting migrations](/docs/migration?group=migration-troubleshooting) documentation for common issues and solutions. You can also contact IBM Cloud support for assistance with complex migration problems.
+If you encounter issues during migration, {{site.data.keyword.mh_short}} provides troubleshooting guidance and access to support resources. Review the [Troubleshooting migrations](/docs/migration?group=troubleshooting) documentation for common issues and solutions. You can also contact {{site.data.keyword.cloud_notm}} support for assistance with complex migration problems.
 
 ## Is {{site.data.keyword.mh_short}} available in all regions?
 {: #faq-regional-availability}
 {: faq}
 
-{{site.data.keyword.mh_short}} is a centralized platform accessible from the IBM Cloud console. While {{site.data.keyword.mh_short}} itself is globally available, the availability of specific migration paths and target products may vary by region. Check the regional availability of your target products before planning your migration.
+{{site.data.keyword.mh_short}} is a centralized platform accessible from the {{site.data.keyword.cloud_notm}} console. While {{site.data.keyword.mh_short}} itself is globally available, the availability of specific migration paths and target products may vary by region. Check the regional availability of your target products before planning your migration.
 
 ## How often is {{site.data.keyword.mh_short}} updated with new migration paths?
 {: #faq-updates}
 {: faq}
 
-{{site.data.keyword.mh_short}} is continuously enhanced with new migration paths, improved tooling, and updated guidance. As IBM Cloud products evolve and new services are introduced, {{site.data.keyword.mh_short}} is updated to support relevant migration scenarios. Check the [Release notes](/docs/migration?topic=migration-relnotes) for the latest updates and new features.
+{{site.data.keyword.mh_short}} is continuously enhanced with new migration paths, improved tooling, and updated guidance. As {{site.data.keyword.cloud_notm}} products evolve and new services are introduced, {{site.data.keyword.mh_short}} is updated to support relevant migration scenarios. Check the [Release notes](/docs/migration?topic=migration-relnotes) for the latest updates and new features.

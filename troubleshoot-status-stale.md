@@ -2,9 +2,9 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-20"
+lastupdated: "2026-08-25"
 
-keywords: migration hub troubleshooting, migration status not updating, migration status stale, migration progress
+keywords: ibm cloud migration status, migration status not updating, stale migration status, migration progress, migration dashboard
 
 subcollection: migration
 
@@ -17,9 +17,8 @@ content-type: troubleshoot
 # Why is my migration status not updating?
 {: #troubleshoot-status-stale}
 {: troubleshoot}
-{: support}
 
-The migration status in {{site.data.keyword.mh_short}} does not reflect progress you have already made.
+Resolve issues with IBM Cloud migration status not updating. Learn how to refresh your {{site.data.keyword.mh_short}} dashboard, verify migration steps, and contact support if progress is not reflected.
 {: shortdesc}
 
 After completing one or more migration steps, the status in {{site.data.keyword.mh_short}} still shows the previous state and does not update to reflect your progress.
@@ -32,5 +31,5 @@ Try the following steps:
 
 1. Refresh the {{site.data.keyword.mh_short}} dashboard and wait a few minutes before checking again. Status updates may take several minutes to propagate.
 1. Confirm that the migration step you completed was fully finalized in the target service. Navigate to the target service to verify the resource exists and is active.
-1. If the status remains stale after 30 minutes, contact IBM Cloud support and reference the migration task ID shown in {{site.data.keyword.mh_short}}.
+1. If the status remains stale after 30 minutes, contact [{{site.data.keyword.cloud_notm}} support](/docs/migration?topic=migration-help) and reference the migration task ID shown in {{site.data.keyword.mh_short}}.
 {: tsResolve}

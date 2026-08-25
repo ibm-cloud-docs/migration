@@ -2,9 +2,9 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-20"
+lastupdated: "2026-08-25"
 
-keywords: migration hub troubleshooting, migration task missing, migration not showing, no migration tasks
+keywords: ibm cloud migration tasks missing, no migration tasks, migration not showing, migration dashboard empty, IAM migration access
 
 subcollection: migration
 
@@ -17,9 +17,8 @@ content-type: troubleshoot
 # Why don't I see any migration tasks in {{site.data.keyword.mh_short}}?
 {: #troubleshoot-no-tasks}
 {: troubleshoot}
-{: support}
 
-You accessed {{site.data.keyword.mh_short}} but the dashboard shows no migration tasks or opportunities.
+Resolve issues with missing migration topics in IBM Cloud by checking account access, IAM roles, and notification details in {{site.data.keyword.mh_short}}.
 {: shortdesc}
 
 No migration tasks appear on the {{site.data.keyword.mh_short}} dashboard, even though you received a notification about a required migration.
@@ -34,5 +33,5 @@ Try the following steps to resolve the issue:
 1. Review the notification you received for the affected resource types and check whether those resource types exist in your account.
 1. Verify that you have the appropriate IAM roles and access policies to view the resources listed in the migration notification. For more information, see [Managing access in IBM Cloud](/docs/iam?topic=iam-cloudaccess).
 1. If the notification specified a start date for the migration task, confirm that date has passed. Migration tasks become visible in {{site.data.keyword.mh_short}} approximately 60–90 days before the end date.
-1. If none of the above apply, contact IBM Cloud support through the {{site.data.keyword.cloud_notm}} console for assistance.
+1. If none of the above apply, contact [{{site.data.keyword.cloud_notm}} support](/docs/migration?topic=migration-help) through the {{site.data.keyword.cloud_notm}} console for assistance.
 {: tsResolve}
