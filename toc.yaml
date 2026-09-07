@@ -20,12 +20,14 @@ toc:
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:
-      id: plan
+      id: howto
       topics:
       - topic: get-engaged.md
         navtitle: What you need to know about Migration Hub
       - topic: roles-responsibilities.md
         navtitle: Roles and responsibilities
+      - topic: overview-ui.md
+        navtitle: Using the Overview page
   - navgroup:
       id: reference
       topics:

@@ -35,8 +35,8 @@
     "view_more": "/docs/migration?topic=migration-relnotes",
     "tiles": [
       {
-        "date": "30 September 2026",
-        "title": "Centralized migration tracking and status monitoring"
+        "date": "01 September 2026",
+        "title": "Migration Hub is now available in the IBM Cloud console. The centralized platform for managing migrations across IBM Cloud products and services."
       }
     ]
   }

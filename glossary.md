@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-08-25"
+lastupdated: "2026-09-07"
 
 keywords: ibm cloud migration glossary, cloud migration terms, migration definitions, migration hub glossary, blue-green deployment, IAM, resource controller, migration wizard, VPC migration
 
@@ -36,12 +36,6 @@ Classic Infrastructure
 
 IAM (Identity and Access Management)
 :   The IBM Cloud service that controls who can access resources and what actions they can perform. Appropriate IAM roles and access policies are required to view and manage resources in {{site.data.keyword.mh_short}}. If a migration task is not visible, insufficient IAM permissions are a common cause.
-
-## L
-{: #glossary-l}
-
-Lucene query
-:   A query string in Apache Lucene syntax used by {{site.data.keyword.mh_short}} to discover eligible customer resources through the IBM Cloud Global Search and Tagging API. The query is defined in the `discovery.luceneQuery` field of `config.json`. Common fields include `service_name`, `type`, `family`, and `region`. The `service_name` value must match the CRN segment exactly, not the console display name.
 
 ## M
 {: #glossary-m}
