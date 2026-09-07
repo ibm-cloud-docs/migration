@@ -23,11 +23,11 @@ toc:
       id: howto
       topics:
       - topic: get-engaged.md
-        navtitle: What you need to know about Migration Hub
+        navtitle: Managing migrations with Migration Hub
       - topic: roles-responsibilities.md
         navtitle: Roles and responsibilities
       - topic: overview-ui.md
-        navtitle: Using the Overview page
+        navtitle: Understanding the overview
   - navgroup:
       id: reference
       topics:

@@ -1,14 +1,9 @@
 ---
-
 copyright:
   years: 2026
-
 lastupdated: "2026-09-07"
-
 keywords: ibm cloud migration glossary, cloud migration terms, migration definitions, migration hub glossary, blue-green deployment, IAM, resource controller, migration wizard, VPC migration
-
 subcollection: migration
-
 ---
 
 {{site.data.keyword.attribute-definition-list}}
