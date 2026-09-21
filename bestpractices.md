@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-25"
+lastupdated: "2026-09-21"
 
 keywords: ibm cloud migration best practices, cloud service upgrade, migration planning, migration strategy, service deprecation, workload migration
 
@@ -12,10 +12,10 @@ subcollection: migration
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Preparing for {{site.data.keyword.cloud_notm}} service upgrades: {{site.data.keyword.mh_short}} best practices
+# Best practices for IBM Cloud service upgrades and migrations
 {: #best-practices}
 
-Learn how to prepare for {{site.data.keyword.cloud_notm}} service upgrades and deprecations, ensuring uninterrupted workloads and smooth migrations with these best practices.
+Learn best practices for preparing for {{site.data.keyword.cloud_notm}} service upgrades, deprecations, and cloud migrations to keep workloads uninterrupted and transitions smooth.
 {: shortdesc}
 
 ## Planning your migration

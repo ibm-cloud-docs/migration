@@ -14,20 +14,24 @@ toc:
       id: learn
       topics:
       - topic: migration-hub.md
-        navtitle: What is Migration Hub?
+        navtitle: About Migration Hub
       - topic: bestpractices.md
         navtitle: Best practices
+      - topic: roles-responsibilities.md
+        navtitle: Roles and responsibilities
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:
       id: howto
       topics:
+      - topic: mh-iam.md
+        navtitle: Identity access management for Migration Hub
       - topic: get-engaged.md
-        navtitle: Managing migrations with Migration Hub
-      - topic: roles-responsibilities.md
-        navtitle: Roles and responsibilities
+        navtitle: Manage migrations with Migration Hub
+      - topic: understanding-migration-topics.md
+        navtitle: Understanding migration topics
       - topic: overview-ui.md
-        navtitle: Understanding the overview
+        navtitle: Viewing your classic resources dashboard
   - navgroup:
       id: reference
       topics:

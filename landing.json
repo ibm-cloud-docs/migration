@@ -1,7 +1,7 @@
 {
   "version": 2,
   "title": "Migration Hub",
-  "introduction": "Your centralized platform for managing migrations across IBM Cloud products and services. It identifies the resources in your account that require action, helps you plan your migration path, and guides you through each step — with instructions, documentation, and tools for transitions.",
+  "introduction": "Your centralized platform for managing migrations across IBM Cloud products and services. It identifies the resources in your account that require action, helps you plan your migration process, and guides you through each step — with instructions, documentation, and tools for transitions.",
   "section_topics": {
     "links": [
       {

@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-08-25"
+lastupdated: "2026-09-21"
 
 keywords: ibm cloud migrations, migration hub, managing cloud migrations, service deprecation migration, infrastructure upgrade, cloud migration eligibility
 
@@ -16,13 +16,13 @@ subcollection: migration
 # Managing IBM Cloud migrations with {{site.data.keyword.mh_short}}
 {: #get-engaged}
 
-{{site.data.keyword.mh_short}} is the centralized platform for managing your IBM Cloud migrations. If you are affected by a service deprecation, infrastructure upgrade, or any other IBM-initiated change that requires action on your resources, {{site.data.keyword.mh_short}} provides the tools and information to help you complete the migration.
+Learn how to manage your IBM Cloud migrations with {{site.data.keyword.mh_short}}, the centralized platform for service deprecations, infrastructure upgrades, and IBM-initiated changes that require action on your resources.
 {: shortdesc}
 
 ## When {{site.data.keyword.mh_short}} applies to you
 {: #when-to-migrate}
 
-You may be directed to {{site.data.keyword.mh_short}} when any of the following situations affect your IBM Cloud account:
+{{site.data.keyword.mh_short}} applies to you when any of the following situations affect your IBM Cloud account:
 
 - A service or feature you use is being deprecated and you must stop using it by a specific date.
 - Your resources are being moved to new infrastructure — for example, from Classic Infrastructure to VPC — and you must take action to complete the move.
@@ -67,15 +67,6 @@ The following table describes the migration types that {{site.data.keyword.mh_sh
 | Multi-service or program migration | A broader initiative involving multiple services that requires coordinated action. | Classic network program migration |
 {: caption="Migration types supported by {{site.data.keyword.mh_short}}" caption-side="bottom"}
 
-### When a migration applies to your account
-{: #eligibility-criteria}
-
-A {{site.data.keyword.mh_short}} task applies to your account when all of the following are true:
-
-1. **Your action is required.** If IBM can complete the migration with no customer-visible change, it will not appear in the Hub.
-2. **Your affected resources are identified.** {{site.data.keyword.mh_short}} uses a query to discover which resources in your account are affected. You can review the scope before taking action.
-3. **A migration path is available.** You will have a documented path to complete the migration — step-by-step instructions, a script to run, or a guided wizard in {{site.data.keyword.mh_short}}.
-4. **A service team is responsible.** The team that owns the service you are migrating from maintains the migration content and is available to support you.
 
 ### Migrations not supported by {{site.data.keyword.mh_short}}
 {: #out-of-scope}

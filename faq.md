@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-25"
+lastupdated: "2026-09-21"
 
 keywords: migration hub faq, ibm cloud migration questions, migration eligibility, migration types, classic to vpc, cloud foundry migration, migration planning, migration costs
 
@@ -14,10 +14,10 @@ content-type: faq
 
 {{site.data.keyword.attribute-definition-list}}
 
-# {{site.data.keyword.mh_short}} FAQs
+# {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}}: Frequently asked questions
 {: #faq}
 
-Get answers to frequently asked questions about {{site.data.keyword.cloud_notm}} migration hub, including supported migration types, eligibility, planning, costs, and timelines.
+Get answers to frequently asked questions about {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}}, including supported IBM Cloud migration types, eligibility, planning, costs, and timelines.
 {: shortdesc}
 
 ## What types of migrations does {{site.data.keyword.mh_short}} support?
@@ -48,7 +48,7 @@ The current MVP release of {{site.data.keyword.mh_short}} focuses specifically o
 {: #faq-operate-all}
 {: faq}
 
-No. Each migration topic has its own workflow, documentation, and tooling, maintained by the service team responsible for that migration. Some migrations use a guided wizard, others provide step-by-step instructions or a script to run, and timelines vary by complexity. What is consistent across all migrations is that {{site.data.keyword.mh_short}} identifies the resources that require action, provides a documented path to completion, and connects you with the responsible service team. For more information, see [What you need to know about {{site.data.keyword.mh_short}}](/docs/migration?topic=migration-get-engaged).
+No. Each migration topic has its own workflow, documentation, and tooling, maintained by the service team responsible for that migration. Some migrations use a guided wizard, others provide step-by-step instructions or a script to run, and timelines vary by complexity. What is consistent across all migrations is that {{site.data.keyword.mh_short}} identifies the resources that require action, provides a documented process to completion, and connects you with the responsible service team. For more information, see [What you need to know about {{site.data.keyword.mh_short}}](/docs/migration?topic=migration-get-engaged).
 
 ## How long does a typical migration take?
 {: #faq-migration-duration}
@@ -120,10 +120,87 @@ If you encounter issues during migration, {{site.data.keyword.mh_short}} provide
 {: #faq-regional-availability}
 {: faq}
 
-{{site.data.keyword.mh_short}} is a centralized platform accessible from the {{site.data.keyword.cloud_notm}} console. While {{site.data.keyword.mh_short}} itself is globally available, the availability of specific migration paths and target products may vary by region. Check the regional availability of your target products before planning your migration.
+{{site.data.keyword.mh_short}} is a centralized platform accessible from the {{site.data.keyword.cloud_notm}} console. While {{site.data.keyword.mh_short}} itself is globally available, the availability of specific migration topics and target products may vary by region. Check the regional availability of your target products before planning your migration.
 
-## How often is {{site.data.keyword.mh_short}} updated with new migration paths?
+## How often is {{site.data.keyword.mh_short}} updated with new migration topics?
 {: #faq-updates}
 {: faq}
 
-{{site.data.keyword.mh_short}} is continuously enhanced with new migration paths, improved tooling, and updated guidance. As {{site.data.keyword.cloud_notm}} products evolve and new services are introduced, {{site.data.keyword.mh_short}} is updated to support relevant migration scenarios. Check the [Release notes](/docs/migration?topic=migration-relnotes) for the latest updates and new features.
+{{site.data.keyword.mh_short}} is continuously enhanced with new migration topics, improved tooling, and updated guidance. As {{site.data.keyword.cloud_notm}} products evolve and new services are introduced, {{site.data.keyword.mh_short}} is updated to support relevant migration scenarios. Check the [Release notes](/docs/migration?topic=migration-relnotes) for the latest updates and new features.
+
+## How will I know if I need to use {{site.data.keyword.mh_short}}?
+{: #faq-when-to-use}
+{: faq}
+
+IBM Cloud sends you a notification when a service deprecation, infrastructure upgrade, version change, or regional relocation affects your account and requires action on your resources. The notification includes details about the required change, the target end date (if applicable), and a link to the relevant migration task in {{site.data.keyword.mh_short}}. You can also access {{site.data.keyword.mh_short}} directly from the {{site.data.keyword.cloud_notm}} console at any time to check whether any migration topics apply to your account.
+
+## What happens to my resources if I do not migrate by the end date?
+{: #faq-end-date-consequences}
+{: faq}
+
+When a migration topic has a specific end date, resources that are not migrated by that date may be deactivated or removed. IBM Cloud aims to provide adequate lead time — typically 60 to 90 days before the end date — and sends reminder notifications 30 days before the deadline. Start your migration as early as possible to allow time to plan, test, and resolve any issues. For a full breakdown of migration stages, see [Managing IBM Cloud migrations with {{site.data.keyword.mh_short}}](/docs/migration?topic=migration-get-engaged).
+
+## Does {{site.data.keyword.mh_short}} support migrations I initiate myself?
+{: #faq-self-initiated}
+{: faq}
+
+No. {{site.data.keyword.mh_short}} is designed for IBM-initiated changes that require action on your resources, such as service deprecations, infrastructure upgrades, and regional relocations. Self-initiated reorganizations — such as moving resources between accounts or regions for your own operational reasons when no service team–driven change is involved — are outside the scope of {{site.data.keyword.mh_short}}.
+
+## What migration topics are currently available in {{site.data.keyword.mh_short}}?
+{: #faq-available-topics}
+{: faq}
+
+{{site.data.keyword.mh_short}} currently supports the following migration topics:
+
+- **Clusters (Classic to VPC)**: Move container workloads from classic infrastructure to VPC.
+- **Compute servers (Classic to VPC)**: Transition virtual or bare metal servers from classic infrastructure to VPC.
+- **Data services (Classic to VPC)**: Modernize database services on VPC infrastructure.
+
+New migration topics are added as IBM Cloud services evolve. For the full list of supported migration options, see [Understanding migration topics](/docs/migration?topic=migration-understanding-migration-topics).
+
+## What migration statuses can a resource have?
+{: #faq-migration-statuses}
+{: faq}
+
+Each resource on the Classic resources dashboard can have one of four migration statuses:
+
+- **Not started**: The resource has not begun migration.
+- **In progress**: Migration is underway for the resource.
+- **Complete**: The resource has successfully migrated.
+- **Errors**: An issue occurred during migration that requires attention.
+
+## What is the Open wizard link in the resources table?
+{: #faq-open-wizard}
+{: faq}
+
+The **Open wizard** link appears in the **Migrate** column of the resources table when a resource is ready to migrate. Clicking it launches the migration wizard that is customized by the service team responsible for that resource type. If the resource is already being migrated, the column shows an in-progress status indicator instead.
+
+## Do I need to configure IAM separately to use {{site.data.keyword.mh_short}}?
+{: #faq-iam-configuration}
+{: faq}
+
+No additional IAM configuration is required. {{site.data.keyword.mh_short}} inherits the same IAM permissions as the Resource Controller. Any user or service ID that already has the required IAM roles to interact with the Resource Controller can perform the equivalent actions in {{site.data.keyword.mh_short}}. For details on the required roles and actions, see [How IAM and {{site.data.keyword.mh_short}} work together](/docs/migration?topic=migration-mh-iam).
+
+## I have access to resources from a different migration topic. Will I see them in {{site.data.keyword.mh_short}}?
+{: #faq-cross-topic-visibility}
+{: faq}
+
+Yes. {{site.data.keyword.mh_short}} displays resources based on your IAM access, not the migration topic you are associated with. If you have IAM permissions to view resources that belong to a different migration topic, those resources are visible to you in {{site.data.keyword.mh_short}}. Your IAM policies determine which resources you can see across all migration topics.
+
+## I was added to a support case watchlist. Why can't I view the case?
+{: #faq-watchlist-access}
+{: faq}
+
+Being on the watchlist sends you email notifications when the case is updated, but does not grant access to view the case. To follow the case link in the email notification and view the case details, the account owner must use IBM Cloud® Identity and Access Management (IAM) access policies to grant you case view access.
+
+## How do I get support for a specific migration issue through {{site.data.keyword.mh_short}}?
+{: #faq-get-support}
+{: faq}
+
+Open the **Migration help** popup within {{site.data.keyword.mh_short}} and browse self-help resources such as migration guides, prerequisites, best practices, and troubleshooting content. If the self-help resources do not resolve your issue, click **I still need help** to open the support case flow. The support case form is scoped to {{site.data.keyword.mh_short}} topics and pre-fills with contextual information to help route your request to the correct team.
+
+## Who is responsible for defining migration requirements and deadlines?
+{: #faq-who-owns-deadlines}
+{: faq}
+
+Each migration topic is owned by the IBM Cloud service team responsible for that product change. The service team defines migration requirements, sets customer deadlines, authors the migration topic content in {{site.data.keyword.mh_short}}, and provides technical support for their specific migration. The {{site.data.keyword.mh_short}} platform team builds and maintains the {{site.data.keyword.mh_short}} experience but does not set migration deadlines or requirements for individual topics. If you have questions about the timeline or requirements for a specific migration, refer to the documentation and notifications provided by the service team for that migration.

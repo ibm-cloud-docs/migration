@@ -3,9 +3,9 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-07"
+lastupdated: "2026-09-21"
 
-keywords: migration hub overview, migration dashboard, migration status, dependency mapping, migration readiness, migration KPIs, migration progress, classic to VPC
+keywords: ibm cloud migration dashboard, classic resources, migration status, classic to vpc, classic infrastructure, migration progress, migration hub
 
 subcollection: migration
 
@@ -13,81 +13,43 @@ subcollection: migration
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Using the Overview page
+# Viewing your classic resources dashboard in {{site.data.keyword.mh_short}}
 {: #overview-ui}
 
-The Overview page is the central dashboard for {{site.data.keyword.mh_short}}. It shows resources in your  infrastructure, helps you plan your migration, and tracks the progress of migrations across your account.
+The **Classic resources** page is the central IBM Cloud migration dashboard for {{site.data.keyword.mh_short}}. It shows classic infrastructure resources across clusters, data services, and other resource types, tracks how many resources have moved to VPC, and helps you plan your migration to {{site.data.keyword.vpc_short}} and modern services.
 {: shortdesc}
 
-This page currently displays sample data. Actual assessment data will be available once service teams begin contributing KPI metrics.
-{: note}
-
-## Filtering the dashboard
-{: #overview-filters}
-
-Use the **Resource group**, **Tags**, and **Region** filter controls at the top of the page to narrow data across all sections of the dashboard.
+Use the **Location**, **Group**, and **Tags** filter controls to narrow data across all sections of the dashboard.
 
 ## Key metrics
 {: #overview-kpi-tiles}
 
-Four tiles near the top of the page provide at-a-glance counts for your account.
+You can view the total number of resources in your account, the resources that are still on classic infrastructure and pending for migration, and the resources that have already migrated to VPC.
 
 | Metric | Description |
 | ------- | ----------- |
-| Total resources | The total number of Classic Infrastructure resources in your account that are subject to migration. This equals the sum of resources that are ready to migrate and resources that are blocked. |
-| Popular service | The service type that represents the largest share of your total resources. Shown as a count and a percentage. |
-| Ready to migrate | Resources that have no migration blockers and can be migrated now. The tile also shows how many became ready this week. |
-| Blocked resources | Resources that cannot be migrated until one or more blockers are resolved. The tile also shows how many blockers were added this week. |
-{: caption="Key metrics on the Overview page" caption-side="bottom"}
+| Total resources | The total number of resources in your account that are subject to migration. |
+| Classic resources | The number of resources still on classic infrastructure. |
+| VPC resources | The number of resources that have already moved to VPC. |
+{: caption="Key metrics on the Classic resources page" caption-side="bottom"}
 
-## Overall migration progress
-{: #overview-progress}
+## Resources in classic infrastructure
+{: #overview-classic-resources}
 
-The **Overall migration progress** section provides two complementary views of your migration status.
+The chart shows the total number of resources and their current migration state. The colored segments represent four states: **Not started** (gray), **In progress** (blue), **Complete** (green), and **Errors** (red).
 
-### Donut chart
-{: #overview-donut-chart}
+When no Classic resources are found for your account, the chart displays **0** and a message "No classic resources found for this account."
 
-The donut chart shows the total number of resources and their current migration state. The center of the chart displays the total resource count. The colored segments represent four states: **Not started** (gray), **In progress** (blue), **Complete** (green), and **Errors** (red).
-
-### Estate overview and migration status
-{: #overview-estate-chart}
-
-The stacked bar chart breaks down migration states by resource type: Network, Containers, Databases, Servers, and Others.
-
-## Migration readiness by resources
-{: #overview-readiness}
+The **Overall migration progress** shows a progress bar with the percentage of resources that have completed migration. When no migrations have been completed, the bar displays **0% Complete**.
 
 The **Migration readiness by resources** section provides a detailed, tabular view of individual resources and their readiness to migrate. Use the tabs to switch between resource types.
 
-### Filtering and searching the table
-{: #overview-readiness-filters}
+## Resources in classic infrastructure table
+{: #overview-resources-table}
 
-Use the **Blockers**, **Dependencies**, and **Search** controls to refine the list, and **Settings** to adjust which columns are displayed. 
+The resources table lists classic infrastructure resources that are eligible for migration, organized by resource type. Use the tabs to switch between resource types. 
 
-### Plan your migration table
+### Plan your migration
 {: #overview-plan-table}
 
-Each row shows a resource's **Name**, **Migration blockers** severity (None, Critical, Medium, or Minimal), **Dependencies** count (click the count to view dependent resources), and **Migration status** — either an **Open wizard** link for resources ready to migrate or an in-progress status indicator.
-
-## Dependency mapping
-{: #overview-dependency-mapping}
-
-The **Dependency mapping** section shows how your resources are connected. Use this view to understand the impact of migrating a specific resource and to plan migration order.
-
-### Dependency impact view
-{: #overview-dependency-impact}
-
-The dependency graph visualizes the relationships between a selected resource and its connected services. To use the dependency impact view:
-
-1. In the **Select a resource** dropdown, choose the Classic resource that you want to analyze.
-2. Review the graph to see which services and policies are connected to the selected resource.
-3. Use the **Actions** menu to take action on the selected resource or its dependencies.
-
-If you use the migration wizard, dependencies are remapped to each service automatically during migration where possible.
-{: tip}
-
-## Exporting overview data
-{: #overview-export}
-
-Use the **Export** button at the bottom of the page to download the current Overview data. The export includes the resource list and migration status information shown in the active filters.
+Each row shows a resource's **Name**, **Region**, **Migration status**, **Migrate** columns. The **Migrate** column displays either an **Open wizard** link for resources ready to migrate or an in-progress status indicator. The **Open wizard** link launches out the migration wizard customized by the service teams. 
