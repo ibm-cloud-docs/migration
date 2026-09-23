@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-21"
+lastupdated: "2026-09-23"
 
 keywords: ibm cloud migration, migration hub, cloud migration platform, migration topics, classic to vpc, ibm cloud ecosystem
 
@@ -13,7 +13,7 @@ subcollection: migration
 
 {{site.data.keyword.attribute-definition-list}}
 
-# {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}}
+# About {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}}
 {: #about-migration-hub}
 
 {{site.data.keyword.mh_short}} is the centralized IBM Cloud migration platform for viewing and analyzing migration topics, and planning transitions between {{site.data.keyword.cloud_notm}} products and services. Use {{site.data.keyword.mh_short}} to manage migrations within the IBM Cloud ecosystem, such as moving from Classic Infrastructure to VPC or from deprecated services to their modern replacements.

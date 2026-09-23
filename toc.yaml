@@ -25,7 +25,7 @@ toc:
       id: howto
       topics:
       - topic: mh-iam.md
-        navtitle: Identity access management for Migration Hub
+        navtitle: Controlling resource visibility with IAM
       - topic: get-engaged.md
         navtitle: Manage migrations with Migration Hub
       - topic: understanding-migration-topics.md

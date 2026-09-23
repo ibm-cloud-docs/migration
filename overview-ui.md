@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-21"
+lastupdated: "2026-09-23"
 
 keywords: ibm cloud migration dashboard, classic resources, migration status, classic to vpc, classic infrastructure, migration progress, migration hub
 
@@ -42,14 +42,12 @@ When no Classic resources are found for your account, the chart displays **0** a
 
 The **Overall migration progress** shows a progress bar with the percentage of resources that have completed migration. When no migrations have been completed, the bar displays **0% Complete**.
 
-The **Migration readiness by resources** section provides a detailed, tabular view of individual resources and their readiness to migrate. Use the tabs to switch between resource types.
+## Plan your migration
+{: #plan-migration}
 
-## Resources in classic infrastructure table
-{: #overview-resources-table}
+The resources table lists classic infrastructure resources that are eligible for migration, organized by migration topic. Use the tabs to switch between migration topics. The table might have **Resource name**, **Product**, **Location**, **Status**, and **Action**. 
 
-The resources table lists classic infrastructure resources that are eligible for migration, organized by resource type. Use the tabs to switch between resource types. 
+Column names and layout vary by migration topic, as it is customized by the service teams.
+{: note}
 
-### Plan your migration
-{: #overview-plan-table}
-
-Each row shows a resource's **Name**, **Region**, **Migration status**, **Migrate** columns. The **Migrate** column displays either an **Open wizard** link for resources ready to migrate or an in-progress status indicator. The **Open wizard** link launches out the migration wizard customized by the service teams. 
+The **Migrate or Action** column displays either an **Open wizard** link for resources ready to migrate or an in-progress status indicator. Clicking **Open wizard** launches a step-by-step migration wizard built and maintained by the service team responsible for that resource type. The wizard guides you through the migration process with instructions, configuration steps, and validation checks specific to your resource.
