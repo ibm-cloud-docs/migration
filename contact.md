@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-21"
+lastupdated: "2026-09-28"
 
 keywords: ibm cloud migration support, migration hub help, ibm cloud support resources, migration contact, migration office hours
 
@@ -16,7 +16,7 @@ subcollection: migration
 # {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}} support and migration hub help
 {: #help}
 
-Find IBM Cloud migration hub support resources, including contact options, support tickets, and IBM Cloud support links to help you complete your migration.
+Find {{site.data.keyword.cloud_notm}} migration hub support resources, including contact options, support tickets, and {{site.data.keyword.cloud_notm}} support links to help you complete your migration.
 {: shortdesc}
 
 ## Getting support
@@ -40,7 +40,7 @@ The support case form is limited to the {{site.data.keyword.mh_short}} topic onl
 
 You can also provide any evidence of issues through **attachments** and add additional email Ids to receive any notications regarding the support case.
 
-Adding a user's email address to the watchlist sends email notifications to the user when the case is updated, but does not grant access to view the case. To follow the case link in the email notification and view the case, the account owner must use IBM Cloud® Identity and Access Management (IAM) access policies to grant the user case view access.
+Adding a user's email address to the watchlist sends email notifications to the user when the case is updated, but does not grant access to view the case. To follow the case link in the email notification and view the case, the account owner must use {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access policies to grant the user case view access.
 {: note}
 
 Click **Next**, review the support case and **Submit**.

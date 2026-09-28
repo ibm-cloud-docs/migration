@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-08-25"
+lastupdated: "2026-09-28"
 
 keywords: ibm cloud migration failed, migration error, migration recovery, migration rollback, migration failure troubleshooting
 
@@ -18,7 +18,7 @@ content-type: troubleshoot
 {: #troubleshoot-migration-failed}
 {: troubleshoot}
 
-Learn how to recover from IBM Cloud migration failures, including troubleshooting common errors, rollback procedures, and contacting support.
+Learn how to recover from {{site.data.keyword.cloud_notm}} migration failures, including troubleshooting common errors, rollback procedures, and contacting support.
 {: shortdesc}
 
 The migration status in {{site.data.keyword.mh_short}} shows a failed or error state, or you received an error during a migration wizard step.

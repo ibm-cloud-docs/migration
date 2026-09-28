@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-23"
+lastupdated: "2026-09-28"
 
 keywords: ibm cloud migration dashboard, classic resources, migration status, classic to vpc, classic infrastructure, migration progress, migration hub
 
@@ -16,7 +16,7 @@ subcollection: migration
 # Viewing your classic resources dashboard in {{site.data.keyword.mh_short}}
 {: #overview-ui}
 
-The **Classic resources** page is the central IBM Cloud migration dashboard for {{site.data.keyword.mh_short}}. It shows classic infrastructure resources across clusters, data services, and other resource types, tracks how many resources have moved to VPC, and helps you plan your migration to {{site.data.keyword.vpc_short}} and modern services.
+The **Classic resources** page is the central {{site.data.keyword.cloud_notm}} migration dashboard for {{site.data.keyword.mh_short}}. It shows classic infrastructure resources across clusters, data services, and other resource types, tracks how many resources have moved to VPC, and helps you plan your migration to {{site.data.keyword.vpc_short}} and modern services.
 {: shortdesc}
 
 Use the **Location**, **Group**, and **Tags** filter controls to narrow data across all sections of the dashboard.
