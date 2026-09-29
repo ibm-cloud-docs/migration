@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-09-28"
+lastupdated: "2026-09-29"
 
 keywords: migration hub faq, ibm cloud migration questions, migration eligibility, migration types, classic to vpc, cloud foundry migration, migration planning, migration costs
 
@@ -114,7 +114,7 @@ Proper preparation is essential for successful migration. Start by documenting y
 {: #faq-migration-issues}
 {: faq}
 
-If you encounter issues during migration, {{site.data.keyword.mh_short}} provides troubleshooting guidance and access to support resources. Review the [Troubleshooting migrations](/docs/migration?group=troubleshooting) documentation for common issues and solutions. Refer [Migration Help]((/docs/migration?topic=migration-help)) for assistance with complex migration problems.
+If you encounter issues during migration, {{site.data.keyword.mh_short}} provides troubleshooting guidance and access to support resources. Review the [Troubleshooting migrations](/docs/migration?group=troubleshooting) documentation for common issues and solutions. Refer [Migration Help](/docs/migration?topic=migration-help) for assistance with complex migration problems.
 
 ## Is {{site.data.keyword.mh_short}} available in all regions?
 {: #faq-regional-availability}
