@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-28"
+lastupdated: "2026-09-29"
 
 keywords: IBM Cloud migrations, migration hub, managing cloud migrations, service deprecation migration, infrastructure upgrade, cloud migration eligibility
 
@@ -19,12 +19,12 @@ subcollection: migration
 Learn how to manage your {{site.data.keyword.cloud_notm}} migrations with {{site.data.keyword.mh_short}}, the centralized platform for service deprecations, infrastructure upgrades, and IBM-initiated changes that require action on your resources.
 {: shortdesc}
 
-## When {{site.data.keyword.mh_short}} applies to you
+## Migration scenarios
 {: #when-to-migrate}
 
 {{site.data.keyword.mh_short}} applies to you when any of the following situations affect your {{site.data.keyword.cloud_notm}} account:
 
-- Your resources are being moved to new infrastructure — for example, from Classic Infrastructure to VPC — and you must take action to complete the move.
+- Your resources are being moved to new infrastructure, for example, from Classic Infrastructure to VPC, and you must take action to complete the move.
 - A major version or architecture change requires you to re-provision, reconfigure, or migrate your data.
 - Resources in your account must relocate to a different region to remain in service.
 - A service or feature you use is being deprecated and must be replaced by a specified deadline. Some migrations have fixed end dates, requiring affected resources to be migrated before the deadline.
@@ -38,12 +38,13 @@ When your migration has a published end date, {{site.data.keyword.cloud_notm}} n
 
 | Stage | What happens |
 | ----- | ------------ |
-| Migration Announcement | You receive an {{site.data.keyword.cloud_notm}} notification with details about the change, the target end date (if applicable), and a link to the relevant Migration Task in {{site.data.keyword.mh_short}}. |
-| End of Marketing | Migration materials and guidance are available in {{site.data.keyword.mh_short}} 60–90 days before the end date. You can begin reviewing steps and planning your migration. Reminder notifications are sent as the end date approaches. |
-| End of Support | All affected resources must be migrated. Resources that are not migrated may be deactivated or removed. |
+| Migration announcement | You receive an {{site.data.keyword.cloud_notm}} notification with details about the change, the target end date (if applicable), and a link to the relevant Migration Task in {{site.data.keyword.mh_short}}. |
+| End of Marketing (EoM) | Migration materials and guidance are available in {{site.data.keyword.mh_short}} 60–90 days before the end date. You can begin reviewing steps and planning your migration. Reminder notifications are sent as the end date approaches. |
+| End of Support (EoS) | All affected resources must be migrated. Resources that are not migrated may be deactivated or removed. |
 {: caption="Migration stages and what to expect" caption-side="bottom"}
 
 Start the migration as early as possible. The earlier you begin, the more time you have to plan, test, and resolve any issues.
+{: tip}
 
 ## Types of migrations
 {: #migration-types}
@@ -71,14 +72,14 @@ The following table describes the migration types that {{site.data.keyword.mh_sh
 
 The following situations are outside the scope of {{site.data.keyword.mh_short}}:
 
-- **Silent platform migrations** — changes that IBM makes on your behalf with no required action from you.
-- **Cross-cloud migrations** — moving workloads from {{site.data.keyword.cloud_notm}} to another cloud provider.
-- **Self-initiated moves** — reorganizing your own resources when no service team–driven change is involved.
+- **Silent platform migrations:** changes that IBM makes on your behalf with no required action from you.
+- **Cross-cloud migrations:** moving workloads from {{site.data.keyword.cloud_notm}} to another cloud provider.
+- **Self-initiated moves:** reorganizing your own resources when no service team-driven change is involved.
 
 ## Get help
 {: #migration-help}
 
 If you have questions about a specific migration or need assistance, the following options are available:
 
-- Refer [Migration help](/docs/migration?topic=migration-help) for any assistance.
+- Refer to [Migration help](/docs/migration?topic=migration-help) for any assistance.
 - Refer to the notifications and documentation linked in the migration communication you received.

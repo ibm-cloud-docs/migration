@@ -22,10 +22,10 @@ toc:
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:
-      id: howto
+      id: plan
       topics:
       - topic: mh-iam.md
-        navtitle: Controlling resource visibility with IAM
+        navtitle: How IAM controls resource visibility
       - topic: get-engaged.md
         navtitle: Manage migrations with Migration Hub
       - topic: understanding-migration-topics.md
@@ -47,7 +47,7 @@ toc:
           id: troubleshooting
           topics:
           - topic: troubleshoot-no-tasks.md
-            navtitle: No migration tasks appear
+            navtitle: No migration topics appear
           - topic: troubleshoot-wizard-unavailable.md
             navtitle: Migration wizard is unavailable
           - topic: troubleshoot-status-stale.md

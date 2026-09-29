@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-28"
+lastupdated: "2026-09-29"
 
 keywords: ibm cloud migration support, migration hub help, ibm cloud support resources, migration contact, migration office hours
 
@@ -13,10 +13,10 @@ subcollection: migration
 
 {{site.data.keyword.attribute-definition-list}}
 
-# {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}} support and migration hub help
+# {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}} help and support
 {: #help}
 
-Find {{site.data.keyword.cloud_notm}} migration hub support resources, including contact options, support tickets, and {{site.data.keyword.cloud_notm}} support links to help you complete your migration.
+Find {{site.data.keyword.mh_short}} support resources, including contact options, support tickets, and helpful links to help you complete your migration.
 {: shortdesc}
 
 ## Getting support

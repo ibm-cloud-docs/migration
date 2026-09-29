@@ -3,13 +3,13 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-23"
+lastupdated: "2026-09-29"
 
 keywords: migration hub IAM, IAM permissions, resource controller access, identity access management, migration hub access, IAM roles, migration hub authentication, authorization
 
 subcollection: migration
 
-content-type: howto
+content-type: conref
 
 ---
 

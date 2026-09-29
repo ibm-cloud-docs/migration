@@ -2,9 +2,9 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-09-28"
+lastupdated: "2026-09-29"
 
-keywords: ibm cloud migration topics missing, no migration topics, migration not showing, migration dashboard empty, IAM migration access
+keywords: ibm cloud migration topics missing, no migration topics, migration not showing, migration dashboard empty
 
 subcollection: migration
 
@@ -24,13 +24,12 @@ Resolve issues with missing migration topics in {{site.data.keyword.cloud_notm}}
 No migration topics appear on the {{site.data.keyword.mh_short}} dashboard, even though you received a notification about a required migration.
 {: tsSymptoms}
 
-A migration topic appears in {{site.data.keyword.mh_short}} only when all of the following conditions are true: your action is required, a migration process is available, and a service team is responsible for the migration. If any of these conditions are not met, the topic will not display. 
+Migration topics are visible to all users who have access to {{site.data.keyword.mh_short}}. Topic visibility is not controlled by IAM roles. In most cases, all fully onboarded migration topics are visible by default. A topic might not appear if it has not yet completed the onboarding process and has not been enabled for your account.
 {: tsCauses}
 
 Try the following steps to resolve the issue:
 
-1. Confirm that you are logged in to the correct {{site.data.keyword.cloud_notm}} account. 
-1. Verify that you have the appropriate IAM roles and access policies to view the the migration topics. For more information, see [Managing access in {{site.data.keyword.cloud_notm}}](/docs/iam?topic=iam-cloudaccess).
+1. Confirm that you are logged in to the correct {{site.data.keyword.cloud_notm}} account.
 1. If the notification specified a start date for the migration topic, confirm that date has passed. Migration topics become visible in {{site.data.keyword.mh_short}} approximately 60–90 days before the end date.
-1. If none of the above apply, refer [Migration help](/docs/migration?topic=migration-help) for assistance.
+1. If the topic is still not visible, refer the [Migration help](/docs/migration?topic=migration-help) to request that the topic be enabled for your account.
 {: tsResolve}

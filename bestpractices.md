@@ -15,13 +15,13 @@ subcollection: migration
 # Best practices for {{site.data.keyword.cloud_notm}} service upgrades and migrations
 {: #best-practices}
 
-Learn best practices for preparing for {{site.data.keyword.cloud_notm}} service upgrades, deprecations, and cloud migrations to keep workloads uninterrupted and transitions smooth.
+Learn best practices for {{site.data.keyword.cloud_notm}} service upgrades, deprecations, and migrations to keep your workloads uninterrupted and transitions smooth.
 {: shortdesc}
 
 ## Planning your migration
 {: #planning-migration}
 
-Assess your current environment and understand what the migration involves before you begin.
+Before you begin the migration, assess your existing resources, service dependencies, and configurations to understand the full scope of your migration.
 
 1. Document your resources, dependencies, and configurations.
 1. Use {{site.data.keyword.mh_short}}'s discovery features to identify which resources are eligible for migration.
@@ -80,6 +80,7 @@ Review these known challenges and how to address them before you start your migr
 ## Next steps
 {: #next-steps}
 
+After you plan and complete your migration, use the following resources to get more help.
 - [Review frequently asked questions](/docs/migration?topic=migration-faq)
 - [Troubleshoot common migration issues](/docs/migration?group=troubleshooting)
 - [Get help with your migration](/docs/migration?topic=migration-help)

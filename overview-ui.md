@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-28"
+lastupdated: "2026-09-29"
 
 keywords: ibm cloud migration dashboard, classic resources, migration status, classic to vpc, classic infrastructure, migration progress, migration hub
 
@@ -16,10 +16,11 @@ subcollection: migration
 # Viewing your classic resources dashboard in {{site.data.keyword.mh_short}}
 {: #overview-ui}
 
-The **Classic resources** page is the central {{site.data.keyword.cloud_notm}} migration dashboard for {{site.data.keyword.mh_short}}. It shows classic infrastructure resources across clusters, data services, and other resource types, tracks how many resources have moved to VPC, and helps you plan your migration to {{site.data.keyword.vpc_short}} and modern services.
+Use the {{site.data.keyword.mh_short}} [classic resources dashboard](/migration/classic-resources) to track your {{site.data.keyword.cloud_notm}} migration progress, view resource status across clusters and data services, and plan your move to VPC and modern services.
 {: shortdesc}
 
 Use the **Location**, **Group**, and **Tags** filter controls to narrow data across all sections of the dashboard.
+{: tip}
 
 ## Key metrics
 {: #overview-kpi-tiles}
@@ -38,14 +39,14 @@ You can view the total number of resources in your account, the resources that a
 
 The chart shows the total number of resources and their current migration state. The colored segments represent four states: **Not started** (gray), **In progress** (blue), **Complete** (green), and **Errors** (red).
 
-When no Classic resources are found for your account, the chart displays **0** and a message "No classic resources found for this account."
+When no classic resources are found for your account, the chart displays **0** and the message **No classic resources found for this account**.
 
 The **Overall migration progress** shows a progress bar with the percentage of resources that have completed migration. When no migrations have been completed, the bar displays **0% Complete**.
 
 ## Plan your migration
 {: #plan-migration}
 
-The resources table lists classic infrastructure resources that are eligible for migration, organized by migration topic. Use the tabs to switch between migration topics. The table might have **Resource name**, **Product**, **Location**, **Status**, and **Action**. 
+The resources table lists classic infrastructure resources that are eligible for migration, organized by migration topic. Use the tabs to switch between migration topics. Based on the customization, the table can include columns such as **Resource name**, **Product**, **Location**, **Status**, and **Action**. 
 
 Column names and layout vary by migration topic, as it is customized by the service teams.
 {: note}

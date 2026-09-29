@@ -2,7 +2,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-23"
+lastupdated: "2026-09-29"
 
 keywords: migration topics, migration options, classic to vpc, clusters migration, data services migration, hpcs to key protect, key protect dedicated, servers migration, migration hub
 
@@ -15,7 +15,7 @@ subcollection: migration
 # Understanding migration topics
 {: #understanding-migration-topics}
 
-In {{site.data.keyword.mh_short}}, migration topics represent specific transition process and migration options available for your {{site.data.keyword.cloud_notm}} workloads. Explore and choose from multiple migration options to transition your resources to modern infrastructure and services.
+In {{site.data.keyword.mh_short}}, migration topics represent specific transition processes and migration options available for your {{site.data.keyword.cloud_notm}} workloads. Explore and choose from multiple migration options to transition your resources to modern infrastructure and services.
 {: shortdesc}
 
 ## Migration options
@@ -28,21 +28,21 @@ In {{site.data.keyword.mh_short}}, migration topics represent specific transitio
 
 - **Migration topic**: Classic to VPC
 - **Description**: Move container workloads from classic infrastructure to VPC to improve scalability, security, and network control.
-- **Learn more**: For more information about container and cluster migrations, see [Migrating classic clusters to VPC clusters](/docs/containers?topic=containers-vpc-migration).
+- **Learn more**: For more information about container and cluster migrations, see [Migrating classic clusters to VPC clusters](https://cloud.ibm.com/docs/containers?topic=containers-vpc-migrate-overview).
 
 ### Compute servers
 {: #servers-migration}
 
 - **Migration topic**: Classic to VPC
 - **Description**: Transition virtual or bare metal servers from classic infrastructure to VPC for better performance, isolation, and cost transparency.
-- **Learn more**: For more information about transitioning servers from classic to VPC, see [Preerquisites](/docs/classic-to-vpc?topic=classic-to-vpc-key-migration-prerequisites).
+- **Learn more**: For more information about transitioning servers from classic to VPC, see [Prerequisites](/docs/classic-to-vpc?topic=classic-to-vpc-key-migration-prerequisites).
 
 ### Data services
 {: #data-services-migration}
 
 - **Migration topic**: Classic to VPC
 - **Description**: Modernize your database services on VPC infrastructure built for better performance, scale, and security.
-- **Learn more**: For more information about data services modernization, see .
+- **Learn more**: For more information about data services modernization, see <<>>.
 
 ## Next steps
 {: #migration-topics-next-steps}

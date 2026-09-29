@@ -138,13 +138,13 @@ If you encounter issues during migration, {{site.data.keyword.mh_short}} provide
 {: #faq-end-date-consequences}
 {: faq}
 
-When a migration topic has a specific end date, resources that are not migrated by that date may be deactivated or removed. {{site.data.keyword.cloud_notm}} aims to provide adequate lead time — typically 60 to 90 days before the end date — and sends reminder notifications 30 days before the deadline. Start your migration as early as possible to allow time to plan, test, and resolve any issues. For a full breakdown of migration stages, see [Managing {{site.data.keyword.cloud_notm}} migrations with {{site.data.keyword.mh_short}}](/docs/migration?topic=migration-get-engaged).
+When a migration topic has a specific end date, resources that are not migrated by that date may be deactivated or removed. {{site.data.keyword.cloud_notm}} aims to provide adequate lead time, typically 60 to 90 days before the end date, and sends reminder notifications 30 days before the deadline. Start your migration as early as possible to allow time to plan, test, and resolve any issues. For a full breakdown of migration stages, see [Managing {{site.data.keyword.cloud_notm}} migrations with {{site.data.keyword.mh_short}}](/docs/migration?topic=migration-get-engaged).
 
 ## Does {{site.data.keyword.mh_short}} support migrations I initiate myself?
 {: #faq-self-initiated}
 {: faq}
 
-No. {{site.data.keyword.mh_short}} is designed for IBM-initiated changes that require action on your resources, such as service deprecations, infrastructure upgrades, and regional relocations. Self-initiated reorganizations — such as moving resources between accounts or regions for your own operational reasons when no service team–driven change is involved — are outside the scope of {{site.data.keyword.mh_short}}.
+No. {{site.data.keyword.mh_short}} is designed for IBM-initiated changes that require action on your resources, such as service deprecations, infrastructure upgrades, and regional relocations. Self-initiated reorganizations, such as moving resources between accounts or regions for your own operational reasons when no service team-driven change is involved, are outside the scope of {{site.data.keyword.mh_short}}.
 
 ## What migration topics are currently available in {{site.data.keyword.mh_short}}?
 {: #faq-available-topics}
