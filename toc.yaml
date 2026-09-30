@@ -22,7 +22,7 @@ toc:
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:
-      id: plan
+      id: migrate
       topics:
       - topic: mh-iam.md
         navtitle: How IAM controls resource visibility
