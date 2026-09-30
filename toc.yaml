@@ -22,10 +22,13 @@ toc:
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:
-      id: migrate
+      id: plan
       topics:
       - topic: mh-iam.md
         navtitle: How IAM controls resource visibility
+  - navgroup:
+      id: howto
+      topics:
       - topic: get-engaged.md
         navtitle: Manage migrations with Migration Hub
       - topic: understanding-migration-topics.md
