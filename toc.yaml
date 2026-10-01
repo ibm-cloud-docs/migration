@@ -32,11 +32,11 @@ toc:
         navtitle: Migration topics and options
       - topic: overview-ui.md
         navtitle: Classic resources dashboard overview
-      - topic: glossary.md
-        navtitle: Glossary
   - navgroup:
       id: help
       topics:
+      - topic: glossary.md
+        navtitle: Glossary
       - topic: faq.md
         navtitle: FAQs for Migration Hub
       - topicgroup:
