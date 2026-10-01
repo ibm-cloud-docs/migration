@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-29"
+lastupdated: "2026-10-01"
 
 keywords: migration hub IAM, IAM permissions, resource controller access, identity access management, migration hub access, IAM roles, migration hub authentication, authorization
 
@@ -15,7 +15,7 @@ content-type: conref
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Controlling resource visibility in {{site.data.keyword.mh_short}} with IAM
+# How IAM controls resource visibility in {{site.data.keyword.mh_short}}
 {: #mh-iam}
 
 {{site.data.keyword.mh_short}} uses the same [{{site.data.keyword.iamlong}} (IAM)](/docs/get-coding?topic=get-coding-iam) permissions and access controls as the Resource Controller. No additional IAM configuration is required beyond what the Resource Controller already enforces.

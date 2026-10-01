@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-29"
+lastupdated: "2026-10-01"
 
 keywords: IBM Cloud migrations, migration hub, managing cloud migrations, service deprecation migration, infrastructure upgrade, cloud migration eligibility
 
@@ -13,7 +13,7 @@ subcollection: migration
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Managing {{site.data.keyword.cloud_notm}} migrations with {{site.data.keyword.mh_short}}
+# Manage {{site.data.keyword.cloud_notm}} migrations with {{site.data.keyword.mh_short}}
 {: #get-engaged}
 
 Learn how to manage your {{site.data.keyword.cloud_notm}} migrations with {{site.data.keyword.mh_short}}, the centralized platform for service deprecations, infrastructure upgrades, and IBM-initiated changes that require action on your resources.

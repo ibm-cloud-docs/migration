@@ -25,13 +25,13 @@ toc:
       id: reference
       topics:
       - topic: mh-iam.md
-        navtitle: How IAM controls resource visibility
+        navtitle: IAM roles and resource visibility
       - topic: get-engaged.md
-        navtitle: Manage migrations with Migration Hub
+        navtitle: Migration scenarios, types, and timelines
       - topic: understanding-migration-topics.md
-        navtitle: Understanding migration topics
+        navtitle: Migration topics and options
       - topic: overview-ui.md
-        navtitle: Viewing your classic resources dashboard
+        navtitle: Classic resources dashboard overview
       - topic: glossary.md
         navtitle: Glossary
   - navgroup:
