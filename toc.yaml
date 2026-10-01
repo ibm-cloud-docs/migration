@@ -43,8 +43,6 @@ toc:
           label: Troubleshooting
           id: troubleshooting
           topics:
-          - topic: troubleshoot-no-tasks.md
-            navtitle: No migration topics appear
           - topic: troubleshoot-wizard-unavailable.md
             navtitle: Migration wizard is unavailable
           - topic: troubleshoot-status-stale.md
