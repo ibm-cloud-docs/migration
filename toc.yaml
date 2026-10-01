@@ -22,22 +22,16 @@ toc:
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:
-      id: plan
+      id: reference
       topics:
       - topic: mh-iam.md
         navtitle: How IAM controls resource visibility
-  - navgroup:
-      id: howto
-      topics:
       - topic: get-engaged.md
         navtitle: Manage migrations with Migration Hub
       - topic: understanding-migration-topics.md
         navtitle: Understanding migration topics
       - topic: overview-ui.md
         navtitle: Viewing your classic resources dashboard
-  - navgroup:
-      id: reference
-      topics:
       - topic: glossary.md
         navtitle: Glossary
   - navgroup:
