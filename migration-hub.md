@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-29"
+lastupdated: "2026-10-26"
 
 keywords: ibm cloud migration, migration hub, cloud migration platform, migration topics, classic to vpc, ibm cloud ecosystem
 
@@ -13,13 +13,13 @@ subcollection: migration
 
 {{site.data.keyword.attribute-definition-list}}
 
-# About {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}}
+# About IBM Cloud Migration Hub
 {: #about-migration-hub}
 
-[{{site.data.keyword.mh_short}}](/migration) is the centralized {{site.data.keyword.cloud_notm}} migration platform for viewing and analyzing migration topics, and planning transitions between {{site.data.keyword.cloud_notm}} products and services. Use {{site.data.keyword.mh_short}} to manage migrations within the {{site.data.keyword.cloud_notm}} ecosystem, such as moving from Classic Infrastructure to VPC or from deprecated services to their modern replacements.
+IBM Cloud [{{site.data.keyword.mh_short}}](/migration) is the centralized {{site.data.keyword.cloud_notm}} migration platform for viewing and analyzing migration topics, and planning transitions between {{site.data.keyword.cloud_notm}} products and services. 
 {: shortdesc}
 
-{{site.data.keyword.mh_short}} provides a unified {{site.data.keyword.cloud_notm}} experience for migration topics. The platform delivers:
+Use {{site.data.keyword.mh_short}} to manage migrations within the {{site.data.keyword.cloud_notm}} ecosystem, such as moving from Classic Infrastructure to VPC or from deprecated services to their modern replacements. {{site.data.keyword.mh_short}} provides a unified {{site.data.keyword.cloud_notm}} experience for migration topics. The platform delivers:
 
 - **Unified migration experience**: Centralized hub for all {{site.data.keyword.cloud_notm}} migration activities across different migration topics
 - **Real-time account insights**: Live data showing migration blockers, progress tracking, and migration topics specific to your account

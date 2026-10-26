@@ -12,10 +12,10 @@ subcollection: migration
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Understanding migration topics
+# Understanding migration topics in Migration Hub
 {: #understanding-migration-topics}
 
-In {{site.data.keyword.mh_short}}, migration topics represent specific transition processes and migration options available for your {{site.data.keyword.cloud_notm}} workloads. Explore and choose from multiple migration options to transition your resources to modern infrastructure and services.
+Explore migration topics and options in IBM Cloud {{site.data.keyword.mh_short}} to transition your resources to modern infrastructure and services.
 {: shortdesc}
 
 ## Migration options

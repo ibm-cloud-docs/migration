@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-09-28"
+lastupdated: "2026-10-26"
 
 keywords: ibm cloud migration status, migration status not updating, stale migration status, migration progress, migration dashboard
 
@@ -18,7 +18,7 @@ content-type: troubleshoot
 {: #troubleshoot-status-stale}
 {: troubleshoot}
 
-Resolve issues with {{site.data.keyword.cloud_notm}} migration status not updating. Learn how to refresh your {{site.data.keyword.mh_short}} dashboard, verify migration steps, and contact support if progress is not reflected.
+Resolve IBM Cloud migration status issues by refreshing your dashboard, verifying migration steps, and contacting support if progress isn't reflected.
 {: shortdesc}
 
 After completing one or more migration steps, the status in {{site.data.keyword.mh_short}} still shows the previous state and does not update to reflect your progress.

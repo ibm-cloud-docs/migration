@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-10-01"
+lastupdated: "2026-10-26"
 
 keywords: migration hub IAM, IAM permissions, resource controller access, identity access management, migration hub access, IAM roles, migration hub authentication, authorization
 
@@ -15,10 +15,11 @@ content-type: conref
 
 {{site.data.keyword.attribute-definition-list}}
 
-# How IAM controls resource visibility in {{site.data.keyword.mh_short}}
+# Understanding IAM resource visibility in IBM Cloud Migration Hub
 {: #mh-iam}
 
-{{site.data.keyword.mh_short}} uses the same [{{site.data.keyword.iamlong}} (IAM)](/docs/get-coding?topic=get-coding-iam) permissions and access controls as the Resource Controller. No additional IAM configuration is required beyond what the Resource Controller already enforces.
+
+IBM Cloud {{site.data.keyword.mh_short}} uses the same [{{site.data.keyword.iamlong}} (IAM)](/docs/get-coding?topic=get-coding-iam) permissions and access controls as the Resource Controller. No additional IAM configuration is required.
 {: shortdesc}
 
 Services that migrate to the Resource Controller bring their existing IAM setup with them. For the full list of required IAM roles and actions, see [IAM and the Resource Controller](/docs/get-coding?topic=get-coding-iam-rc).

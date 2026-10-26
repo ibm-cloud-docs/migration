@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-09-29"
+lastupdated: "2026-10-26"
 
 keywords: ibm cloud migration notifications, duplicate migration notifications, migration already completed, migration reminder, migration notification troubleshooting
 
@@ -18,7 +18,7 @@ content-type: troubleshoot
 {: #troubleshoot-duplicate-notifications}
 {: troubleshoot}
 
-Stop receiving unnecessary {{site.data.keyword.cloud_notm}} migration reminder notifications after you complete a migration. Learn what causes duplicate migration notifications and the steps to resolve them.
+Stop receiving IBM Cloud migration reminder notifications after you complete a migration. Learn what causes duplicates and how to resolve them.
 {: shortdesc}
 
 {{site.data.keyword.cloud_notm}} continues to send migration reminder notifications after you have completed the migration steps and consider the migration finished.

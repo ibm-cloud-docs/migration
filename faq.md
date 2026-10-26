@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-09-29"
+lastupdated: "2026-10-26"
 
 keywords: migration hub faq, ibm cloud migration questions, migration eligibility, migration types, classic to vpc, cloud foundry migration, migration planning, migration costs
 
@@ -14,10 +14,10 @@ content-type: faq
 
 {{site.data.keyword.attribute-definition-list}}
 
-# {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}}: Frequently asked questions
+# FAQ for IBM Cloud Migration Hub
 {: #faq}
 
-Get answers to frequently asked questions about {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}}, including supported {{site.data.keyword.cloud_notm}} migration types, eligibility, planning, costs, and timelines.
+Get answers to frequently asked questions about IBM Cloud {{site.data.keyword.mh_short}}, including supported migration types, eligibility, planning, costs, and timelines.
 {: shortdesc}
 
 ## What types of migrations does {{site.data.keyword.mh_short}} support?

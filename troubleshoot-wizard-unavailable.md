@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-09-29"
+lastupdated: "2026-10-26"
 
 keywords: migration hub troubleshooting, migration wizard unavailable, migration wizard disabled, start migration button
 
@@ -18,7 +18,7 @@ content-type: troubleshoot
 {: #troubleshoot-wizard-unavailable}
 {: troubleshoot}
 
-Resolve issues with launching the {{site.data.keyword.cloud_notm}} migration wizard for your resource in {{site.data.keyword.mh_short}} by checking prerequisites, migration task status, and migration timeline.
+Resolve issues related to launching the IBM Cloud migration wizard for your resource by checking prerequisites, migration task status, and migration timeline.
 {: shortdesc}
 
 A migration task is listed in {{site.data.keyword.mh_short}}, but the **Start migration** button or migration wizard link is disabled or does not respond.

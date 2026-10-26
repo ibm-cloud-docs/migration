@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-09-29"
+lastupdated: "2026-10-26"
 
 keywords: ibm cloud migration release notes, migration hub updates, migration hub new features, cloud migration changes
 
@@ -14,10 +14,10 @@ content-type: release-note
 
 {{site.data.keyword.attribute-definition-list}}
 
-# {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}} release notes
+# IBM Cloud Migration Hub release notes
 {: #relnotes}
 
-Stay current with the latest {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}} updates, new features, and changes to plan and manage your migrations effectively.
+Stay up-to-date with the latest IBM Cloud {{site.data.keyword.mh_short}} updates, new features, and changes to plan and manage your cloud migrations effectively.
 {: shortdesc}
 
 ## October 2026

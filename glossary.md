@@ -1,17 +1,17 @@
 ---
 copyright:
   years: 2026
-lastupdated: "2026-09-29"
+lastupdated: "2026-10-26"
 keywords: ibm cloud migration glossary, cloud migration terms, migration definitions, migration hub glossary, blue-green deployment, IAM, resource controller, migration wizard, VPC migration, migration status, service deprecation, end date, watchlist, regional relocation
 subcollection: migration
 ---
 
 {{site.data.keyword.attribute-definition-list}}
 
-# {{site.data.keyword.cloud_notm}} migration glossary: Key terms and definitions
+# IBM Cloud Migration Hub glossary: Key terms and definitions
 {: #glossary}
 
-Use this reference whenever you encounter an unfamiliar term while working in {{site.data.keyword.mh_short}}. The glossary covers key concepts across infrastructure (Classic Infrastructure, VPC), platform services (IAM, Resource Controller), and {{site.data.keyword.mh_short}}-specific workflows (migration topics, migration status, migration wizard, blue-green deployment), so you can quickly orient yourself at any stage of your migration.
+Use this IBM Cloud migration glossary to look up key terms across infrastructure, platform services, and migration workflows at any stage.
 {: shortdesc}
 
 ## B

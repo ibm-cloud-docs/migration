@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-29"
+lastupdated: "2026-10-26"
 
 keywords: ibm cloud migration dashboard, classic resources, migration status, classic to vpc, classic infrastructure, migration progress, migration hub
 
@@ -13,10 +13,10 @@ subcollection: migration
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Viewing your classic resources dashboard in {{site.data.keyword.mh_short}}
+# Viewing classic resources in the IBM Cloud Migration Hub
 {: #overview-ui}
 
-Use the {{site.data.keyword.mh_short}} [classic resources dashboard](/migration/classic-resources) to track your {{site.data.keyword.cloud_notm}} migration progress, view resource status across clusters and data services, and plan your move to VPC and modern services.
+Use the IBM Cloud {{site.data.keyword.mh_short}} [classic resources dashboard](/migration/classic-resources) to monitor migration progress, view resource status, and plan your move to VPC.
 {: shortdesc}
 
 Use the **Location**, **Group**, and **Tags** filter controls to narrow data across all sections of the dashboard.
@@ -39,7 +39,7 @@ You can view the total number of resources in your account, the resources that a
 
 The chart shows the total number of resources and their current migration state. The colored segments represent four states: **Not started** (gray), **In progress** (blue), **Complete** (green), and **Errors** (red).
 
-When no classic resources are found for your account, the chart displays **0** and the message **No classic resources found for this account**.
+When no classic resources are found for your account, the chart displays **0** and the message - "No classic resources found for this account".
 
 The **Overall migration progress** shows a progress bar with the percentage of resources that have completed migration. When no migrations have been completed, the bar displays **0% Complete**.
 

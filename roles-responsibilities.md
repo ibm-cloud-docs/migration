@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-29"
+lastupdated: "2026-10-26"
 
 keywords: ibm cloud migration roles, migration responsibilities, cloud migration stakeholders, migration planning roles, post-migration responsibilities
 
@@ -13,7 +13,7 @@ subcollection: migration
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Roles and responsibilities in {{site.data.keyword.cloud_notm}} {{site.data.keyword.mh_short}}
+# Roles and responsibilities for IBM Cloud Migration Hub
 {: #roles-responsibilities}
 
 Identify key stakeholders and their responsibilities across planning, execution, and post-migration phases for a successful {{site.data.keyword.cloud_notm}} migration.
