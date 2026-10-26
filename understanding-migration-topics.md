@@ -2,7 +2,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-09-29"
+lastupdated: "2026-10-26"
 
 keywords: migration topics, migration options, classic to vpc, clusters migration, data services migration, hpcs to key protect, key protect dedicated, servers migration, migration hub
 
@@ -28,7 +28,7 @@ In {{site.data.keyword.mh_short}}, migration topics represent specific transitio
 
 - **Migration topic**: Classic to VPC
 - **Description**: Move container workloads from classic infrastructure to VPC to improve scalability, security, and network control.
-- **Learn more**: For more information about container and cluster migrations, see [Migrating classic clusters to VPC clusters](https://cloud.ibm.com/docs/containers?topic=containers-vpc-migrate-overview).
+- **Learn more**: For more information about container and cluster migrations, see [Migrating classic clusters to VPC clusters](/docs/containers?topic=containers-vpc-migrate-overview).
 
 ### Compute servers
 {: #servers-migration}

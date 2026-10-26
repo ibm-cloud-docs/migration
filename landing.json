@@ -26,7 +26,14 @@
     {
       "title": "Migrating from Classic Infrastructure to VPC",
       "description": "Learn how to transition your workloads from IBM Cloud Classic Infrastructure to Virtual Private Cloud for enhanced security and performance.",
-      "href": "https://cloud.ibm.com/docs/vpc",
+      "href": "https://cloud.ibm.com/docs/classic-to-vpc",
+      "type": "training",
+      "recommended": true
+    },
+    {
+      "title": "Overview of Gen 1 (Classic) and Gen 2 (VPC)",
+      "description": "Complete your Gen 2 migration in phases with these building blocks. Requirements and tools vary by database type and deployment.",
+      "href": "https://cloud.ibm.com/docs/cloud-databases-gen2?topic=cloud-databases-gen2-overview-gen1-gen2",
       "type": "training",
       "recommended": true
     }
