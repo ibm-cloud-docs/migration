@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 2026
-lastupdated: "2026-10-26"
+lastupdated: "2026-10-27"
 keywords: ibm cloud migration glossary, cloud migration terms, migration definitions, migration hub glossary, blue-green deployment, IAM, resource controller, migration wizard, VPC migration, migration status, service deprecation, end date, watchlist, regional relocation
 subcollection: migration
 ---
@@ -13,12 +13,6 @@ subcollection: migration
 
 Use this IBM Cloud migration glossary to look up key terms across infrastructure, platform services, and migration workflows at any stage.
 {: shortdesc}
-
-## B
-{: #glossary-b}
-
-Blue-green deployment
-:   A release strategy in which two identical environments run in parallel: a blue environment (current) and a green environment (new). Traffic is switched to the green environment after the migration is validated, and the blue environment is kept running as a fallback. {{site.data.keyword.mh_short}} recommends this strategy where possible so that you can roll back quickly if an issue is discovered after cutover.
 
 ## C
 {: #glossary-c}
@@ -79,9 +73,3 @@ Topic ID
 
 Virtual Private Cloud (VPC)
 :   The current-generation {{site.data.keyword.cloud_notm}} infrastructure that provides logically isolated networking, enhanced security, and greater scalability compared to Classic Infrastructure. VPC is the target platform for many {{site.data.keyword.mh_short}} migration tasks, including Classic Infrastructure to VPC migrations.
-
-## W
-{: #glossary-w}
-
-Watchlist
-:   A list of email addresses associated with an {{site.data.keyword.cloud_notm}} support case that receive email notifications when the case is updated. Being on the watchlist does not grant access to view the case. To view a case, the account owner must grant case view access through IAM access policies.
