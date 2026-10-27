@@ -29,7 +29,7 @@ Stay up-to-date with the latest IBM Cloud {{site.data.keyword.mh_short}} updates
 
 {{site.data.keyword.mh_short}} launches with three migration topics, each focused on moving workloads from Classic infrastructure to VPC:
 
-- **Clusters migration**: Migrate Red Hat OpenShift Kubernetes Service or IBM Kubernetes Service clusters from Classic to VPC-native networking, with guidance on Landing Zone setup, OADP-based workload migration, migration wizard support, and end-to-end testing and validation instructions. To view this migration in the {{site.data.keyword.mh_short}} UI, see [Containers](/migration/clusters/get-started). For more information, see [Migrating from Classic to VPC](/docs/openshift?topic=openshift-vpc-migrate-overview).
+- **Clusters migration**: Migrate Red Hat OpenShift Kubernetes Service or IBM Kubernetes Service clusters from Classic to VPC-native networking, with guidance on Landing Zone setup, OADP-based workload migration, migration wizard support, and end-to-end testing and validation instructions. To view this migration in the {{site.data.keyword.mh_short}} UI, see [Clusters](/migration/clusters/get-started). For more information, see [Migrating from Classic to VPC](/docs/openshift?topic=openshift-vpc-migrate-overview).
 
 - **Compute servers migration**: Migrate Classic virtual server instances (VSIs) to IBM Cloud VPC with profile-matched sizing, image capture and migration guidance, and validated cutover steps covering VPC landing zone setup, security group configuration, and post-migration validation. To view this migration in the {{site.data.keyword.mh_short}} UI, see [Compute servers](/migration/compute-servers/get-started). For more information, see [Classic to VPC Migration](/docs/classic-to-vpc).
 
