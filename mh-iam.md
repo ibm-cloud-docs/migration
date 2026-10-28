@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-10-26"
+lastupdated: "2026-10-28"
 
 keywords: migration hub IAM, IAM permissions, resource controller access, identity access management, migration hub access, IAM roles, migration hub authentication, authorization
 
@@ -27,11 +27,20 @@ Services that migrate to the Resource Controller bring their existing IAM setup 
 ## IAM permissions for {{site.data.keyword.mh_short}}
 {: #mh-iam-permissions}
 
-Any user or service ID that has the required IAM roles to interact with the Resource Controller can perform the equivalent actions in {{site.data.keyword.mh_short}}.
+Any user or service ID that has the required IAM roles to interact with the Resource Controller can view all the assets in {{site.data.keyword.mh_short}}.
 
-## Resource visibility across migration topics
-{: #mh-iam-resource-visibility}
+To view assets in {{site.data.keyword.mh_short}}, ensure you have the following permissions:
 
-{{site.data.keyword.mh_short}} displays resources based on your IAM access, not the migration topic you belong to. If you have IAM access to resources that are managed by a different migration topic, those resources are visible to you in {{site.data.keyword.mh_short}}.
+| Service | Resources | Role |
+| ------- | --------- | ---- |
+| `All Identity and Access enabled services` | All | Viewer |
+| `Resource group only` | All resource groups in the account | Viewer |
+{: caption="Permissions required to view assets" caption-side="bottom"}
 
-For example, if your account has IAM access to both cluster resources and data services resources, you can view both in {{site.data.keyword.mh_short}} regardless of which migration topic you are associated with.
+To view the assets for Compute servers, you must have the following permissions:
+- **View Hardware Details**
+- **View Virtual Dedicated Host Details**
+- **View Virtual Server Details**
+
+If you do not have these permissions, {{site.data.keyword.mh_short}} redirects you to the {{site.data.keyword.cloud_notm}} console.
+{: note}

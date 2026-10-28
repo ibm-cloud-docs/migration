@@ -2,7 +2,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-10-26"
+lastupdated: "2026-10-28"
 
 keywords: migration topics, migration options, classic to vpc, clusters migration, data services migration, hpcs to key protect, key protect dedicated, servers migration, migration hub
 
@@ -42,7 +42,7 @@ Explore migration topics and options in IBM Cloud {{site.data.keyword.mh_short}}
 
 - **Migration topic**: Classic to VPC
 - **Description**: Modernize your database services on VPC infrastructure built for better performance, scale, and security.
-- **Learn more**: For more information about data services modernization, see <<>>.
+- **Learn more**: For more information about data services modernization, see [Overview of Gen 1 (Classic) and Gen 2 (VPC)](/docs/cloud-databases-gen2?topic=cloud-databases-gen2-overview-gen1-gen2).
 
 ## Next steps
 {: #migration-topics-next-steps}
