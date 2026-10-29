@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-10-26"
+lastupdated: "2026-10-29"
 
 keywords: migration hub faq, ibm cloud migration questions, migration eligibility, migration types, classic to vpc, cloud foundry migration, migration planning, migration costs
 
@@ -140,11 +140,13 @@ If you encounter issues during migration, {{site.data.keyword.mh_short}} provide
 
 When a migration topic has a specific end date, resources that are not migrated by that date may be deactivated or removed. {{site.data.keyword.cloud_notm}} aims to provide adequate lead time, typically 60 to 90 days before the end date, and sends reminder notifications 30 days before the deadline. Start your migration as early as possible to allow time to plan, test, and resolve any issues. For a full breakdown of migration stages, see [Managing {{site.data.keyword.cloud_notm}} migrations with {{site.data.keyword.mh_short}}](/docs/migration?topic=migration-get-engaged).
 
-## Does {{site.data.keyword.mh_short}} support migrations I initiate myself?
+<!-->
+
+## Does {[mh]} support migrations I initiate myself?
 {: #faq-self-initiated}
 {: faq}
 
-No. {{site.data.keyword.mh_short}} is designed for IBM-initiated changes that require action on your resources, such as service deprecations, infrastructure upgrades, and regional relocations. Self-initiated reorganizations, such as moving resources between accounts or regions for your own operational reasons when no service team-driven change is involved, are outside the scope of {{site.data.keyword.mh_short}}.
+No. {[mh]} is designed for IBM-initiated changes that require action on your resources, such as service deprecations, infrastructure upgrades, and regional relocations. Self-initiated reorganizations, such as moving resources between accounts or regions for your own operational reasons when no service team-driven change is involved, are outside the scope of {[mh]}. -->
 
 ## What migration topics are currently available in {{site.data.keyword.mh_short}}?
 {: #faq-available-topics}
@@ -162,7 +164,7 @@ New migration topics are added as {{site.data.keyword.cloud_notm}} services evol
 {: #faq-migration-statuses}
 {: faq}
 
-Each resource on the Classic resources dashboard can have one of four migration statuses:
+Each resource on the Classic resources dashboard can have one of four migration statuses, if provided by the service product teams:
 
 - **Not started**: The resource has not begun migration.
 - **In progress**: Migration is underway for the resource.
@@ -173,7 +175,7 @@ Each resource on the Classic resources dashboard can have one of four migration 
 {: #faq-open-wizard}
 {: faq}
 
-The **Open wizard** link appears in the **Migrate** column of the resources table when a resource is ready to migrate. Clicking it launches the migration wizard that is customized by the service team responsible for that resource type. If the resource is already being migrated, the column shows an in-progress status indicator instead.
+If the service product teams provide a wizard for migration, then the **Open wizard** link appears in the **Migrate** column of the resources table when a resource is ready to migrate. Clicking it launches the migration wizard that is customized by the service team responsible for that resource type. If the resource is already being migrated, the column shows an in-progress status indicator instead.
 
 ## Do I need to configure IAM separately to use {{site.data.keyword.mh_short}}?
 {: #faq-iam-configuration}
@@ -187,12 +189,6 @@ No additional IAM configuration is required. {{site.data.keyword.mh_short}} inhe
 
 Yes. {{site.data.keyword.mh_short}} displays resources based on your IAM access, not the migration topic you are associated with. If you have IAM permissions to view resources that belong to a different migration topic, those resources are visible to you in {{site.data.keyword.mh_short}}. Your IAM policies determine which resources you can see across all migration topics.
 
-## I was added to a support case watchlist. Why can't I view the case?
-{: #faq-watchlist-access}
-{: faq}
-
-Being on the watchlist sends you email notifications when the case is updated, but does not grant access to view the case. To follow the case link in the email notification and view the case details, the account owner must use {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access policies to grant you case view access.
-
 ## How do I get support for a specific migration issue through {{site.data.keyword.mh_short}}?
 {: #faq-get-support}
 {: faq}
@@ -203,4 +199,14 @@ Open the **Migration help** popup within {{site.data.keyword.mh_short}} and brow
 {: #faq-who-owns-deadlines}
 {: faq}
 
-Each migration topic is owned by the {{site.data.keyword.cloud_notm}} service team responsible for that product change. The service team defines migration requirements, sets customer deadlines, authors the migration topic content in {{site.data.keyword.mh_short}}, and provides technical support for their specific migration. The {{site.data.keyword.mh_short}} platform team builds and maintains the {{site.data.keyword.mh_short}} experience but does not set migration deadlines or requirements for individual topics. If you have questions about the timeline or requirements for a specific migration, refer to the documentation and notifications provided by the service team for that migration.
+The {{site.data.keyword.cloud_notm}} service product team that owns each service also owns its migration. The service product team sets the requirements and deadlines, writes the migration guidance that you see in {{site.data.keyword.mh_short}}, and provides technical support if you need help. 
+
+The {{site.data.keyword.mh_short}} platform team provides the place where you find and manage your migrations, but it doesn't set requirements or deadlines. For questions about timing or requirements for a specific migration, check the migration topic in {{site.data.keyword.mh_short}} and any notifications from that service product team. If you need more help, open a support case from the **Migration help** popup.
+
+## Does {{site.data.keyword.mh_short}} show only the migrations that affect my account?
+{: #faq-topics-filtered}
+{: faq}
+
+No. {{site.data.keyword.mh_short}} doesn't currently filter migration topics to show only the ones that affect your account. Whether a migration requires action in your account can depend on several factors, so the best indicator is a notification from {{site.data.keyword.cloud_notm}}. If you received a notification or email that directed you to a migration topic, you have a task to complete.
+
+You might also find {{site.data.keyword.mh_short}} after you see a pop-up message in the console, a release note, or a migration topic in the documentation. In these cases, the migration might not apply to you. To stay informed, watch for notifications in the {{site.data.keyword.cloud_notm}} console and other notification sources.
