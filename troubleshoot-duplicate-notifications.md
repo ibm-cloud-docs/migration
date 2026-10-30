@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-10-26"
+lastupdated: "2026-10-30"
 
 keywords: ibm cloud migration notifications, duplicate migration notifications, migration already completed, migration reminder, migration notification troubleshooting
 
@@ -32,5 +32,5 @@ Try the following steps:
 1. Log in to {{site.data.keyword.mh_short}} and check the current status of the migration task. If the status still shows as incomplete or in progress, the status has not yet been updated.
 1. Verify in the target service that your resources were successfully migrated and are active.
 1. Allow up to 24 hours for the completion status to propagate through Resource Controller and stop triggering notifications.
-1. If notifications continue after 24 hours and your migration status in {{site.data.keyword.mh_short}} is still not updated to complete, refer [Migration help](/docs/migration?topic=migration-help).
+1. If notifications continue after 24 hours and your migration status in {{site.data.keyword.mh_short}} is still not updated to complete, see [Migration help](/docs/migration?topic=migration-help).
 {: tsResolve}

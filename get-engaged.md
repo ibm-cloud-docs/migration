@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-10-26"
+lastupdated: "2026-10-30"
 
 keywords: IBM Cloud migrations, migration hub, managing cloud migrations, service deprecation migration, infrastructure upgrade, cloud migration eligibility
 
@@ -81,5 +81,5 @@ The following situations are outside the scope of {{site.data.keyword.mh_short}}
 
 If you have questions about a specific migration or need assistance, the following options are available:
 
-- Refer to [Migration help](/docs/migration?topic=migration-help) for any assistance.
-- Refer to the notifications and documentation linked in the migration communication you received.
+- See [Migration help](/docs/migration?topic=migration-help) for any assistance.
+- Review the notifications and documentation linked in the migration communication you received.

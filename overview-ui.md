@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-10-27"
+lastupdated: "2026-10-30"
 
 keywords: ibm cloud migration dashboard, classic resources, migration status, classic to vpc, classic infrastructure, migration progress, migration hub
 
@@ -48,7 +48,7 @@ The **Overall migration progress** shows a progress bar with the percentage of r
 
 The resources table lists classic infrastructure resources that are eligible for migration, organized by migration topic. Use the tabs to switch between migration topics. Based on the customization, the table can include columns such as **Resource name**, **Product**, **Location**, **Status**, and **Action**. 
 
-Column names and layout vary by migration topic, as it is customized by the service teams.
+Column names and layout vary by migration topic, as it is customized by the service product teams.
 {: note}
 
-The **Migrate or Action** column displays either an **Open wizard** link for resources ready to migrate or an in-progress status indicator. Clicking **Open wizard** launches a step-by-step migration wizard built and maintained by the service team responsible for that resource type. The wizard guides you through the migration process with instructions, configuration steps, and validation checks specific to your resource.
+The **Migrate or Action** column displays either an **Open wizard** link for resources ready to migrate or an in-progress status indicator. Click **Open wizard** to launch a step-by-step migration wizard that is built and maintained by the service product team responsible for that resource type. The wizard guides you through the migration process with instructions, configuration steps, and validation checks specific to your resource.

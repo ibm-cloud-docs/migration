@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-10-29"
+lastupdated: "2026-10-30"
 
 keywords: migration hub faq, ibm cloud migration questions, migration eligibility, migration types, classic to vpc, cloud foundry migration, migration planning, migration costs
 
@@ -30,7 +30,7 @@ Get answers to frequently asked questions about IBM Cloud {{site.data.keyword.mh
 {: #faq-eligible-resources}
 {: faq}
 
-{{site.data.keyword.mh_short}} automatically identifies resources in your account that are eligible for migration. When you access {{site.data.keyword.mh_short}}, you'll see an overview of eligible resources in the dashboard. You can filter resources by service type, region, or migration status to find specific resources that can be migrated.
+{{site.data.keyword.mh_short}} automatically identifies resources in your account that are eligible for migration. When you access {{site.data.keyword.mh_short}}, you can see an overview of eligible resources in the dashboard. You can filter resources by service type, region, or migration status to find specific resources that can be migrated.
 
 ## What information does {{site.data.keyword.mh_short}} provide about migrations?
 {: #faq-information}
@@ -84,13 +84,13 @@ Rollback capabilities depend on the specific migration type and your implementat
 {: #faq-feature-parity}
 {: faq}
 
-{{site.data.keyword.mh_short}} provides detailed feature parity comparisons between source and target products. If certain features aren't available in the target product, {{site.data.keyword.mh_short}} offers guidance on alternative implementations or workarounds. Review the feature comparison documentation before starting your migration to plan for any necessary changes to your architecture or workflows.
+{{site.data.keyword.mh_short}} provides detailed feature parity comparisons between source and target products. If certain features are not available in the target product, {{site.data.keyword.mh_short}} offers guidance on alternative implementations or workarounds. Review the feature comparison documentation before starting your migration to plan for any necessary changes to your architecture or workflows.
 
 ## Do I need special permissions to use {{site.data.keyword.mh_short}}?
 {: #faq-permissions}
 {: faq}
 
-You need appropriate access permissions to view and manage your {{site.data.keyword.cloud_notm}} resources. The specific permissions required depend on the resources you're migrating and the target products. Ensure you have the necessary IAM roles and access policies before starting a migration. For more information, see [Managing access in {{site.data.keyword.cloud_notm}}](/docs/iam?topic=iam-cloudaccess).
+You need appropriate access permissions to view and manage your {{site.data.keyword.cloud_notm}} resources. The specific permissions required depend on the resources you are migrating and the target products. Ensure you have the necessary IAM roles and access policies before starting a migration. For more information, see [Managing access in {{site.data.keyword.cloud_notm}}](/docs/iam?topic=iam-cloudaccess).
 
 ## What happens to my data during migration?
 {: #faq-data-migration}
@@ -114,7 +114,7 @@ Proper preparation is essential for successful migration. Start by documenting y
 {: #faq-migration-issues}
 {: faq}
 
-If you encounter issues during migration, {{site.data.keyword.mh_short}} provides troubleshooting guidance and access to support resources. Review the [Troubleshooting migrations](/docs/migration?group=troubleshooting) documentation for common issues and solutions. Refer [Migration Help](/docs/migration?topic=migration-help) for assistance with complex migration problems.
+If you encounter issues during migration, {{site.data.keyword.mh_short}} provides troubleshooting guidance and access to support resources. Review the [Troubleshooting migrations](/docs/migration?group=troubleshooting) documentation for common issues and solutions. See [Migration help](/docs/migration?topic=migration-help) for assistance with complex migration problems.
 
 ## Is {{site.data.keyword.mh_short}} available in all regions?
 {: #faq-regional-availability}
@@ -175,7 +175,7 @@ Each resource on the Classic resources dashboard can have one of four migration 
 {: #faq-open-wizard}
 {: faq}
 
-If the service product teams provide a wizard for migration, then the **Open wizard** link appears in the **Migrate** column of the resources table when a resource is ready to migrate. Clicking it launches the migration wizard that is customized by the service team responsible for that resource type. If the resource is already being migrated, the column shows an in-progress status indicator instead.
+If the service product teams provide a wizard for migration, then the **Open wizard** link appears in the **Migrate** column of the resources table when a resource is ready to migrate. Click **Open wizard** to launch the migration wizard that is customized by the service team responsible for that resource type. If the resource is already being migrated, the column shows an in-progress status indicator instead.
 
 ## Do I need to configure IAM separately to use {{site.data.keyword.mh_short}}?
 {: #faq-iam-configuration}
@@ -201,12 +201,12 @@ Open the **Migration help** popup within {{site.data.keyword.mh_short}} and brow
 
 The {{site.data.keyword.cloud_notm}} service product team that owns each service also owns its migration. The service product team sets the requirements and deadlines, writes the migration guidance that you see in {{site.data.keyword.mh_short}}, and provides technical support if you need help. 
 
-The {{site.data.keyword.mh_short}} platform team provides the place where you find and manage your migrations, but it doesn't set requirements or deadlines. For questions about timing or requirements for a specific migration, check the migration topic in {{site.data.keyword.mh_short}} and any notifications from that service product team. If you need more help, open a support case from the **Migration help** popup.
+The {{site.data.keyword.mh_short}} platform team provides the place where you find and manage your migrations, but it does not set requirements or deadlines. For questions about timing or requirements for a specific migration, check the migration topic in {{site.data.keyword.mh_short}} and any notifications from that service product team. If you need more help, open a support case from the **Migration help** popup.
 
 ## Does {{site.data.keyword.mh_short}} show only the migrations that affect my account?
 {: #faq-topics-filtered}
 {: faq}
 
-No. {{site.data.keyword.mh_short}} doesn't currently filter migration topics to show only the ones that affect your account. Whether a migration requires action in your account can depend on several factors, so the best indicator is a notification from {{site.data.keyword.cloud_notm}}. If you received a notification or email that directed you to a migration topic, you have a task to complete.
+No. {{site.data.keyword.mh_short}} does not currently filter migration topics to show only the ones that affect your account. Whether a migration requires action in your account can depend on several factors, so the best indicator is a notification from {{site.data.keyword.cloud_notm}}. If you received a notification or email that directed you to a migration topic, you have a task to complete.
 
 You might also find {{site.data.keyword.mh_short}} after you see a pop-up message in the console, a release note, or a migration topic in the documentation. In these cases, the migration might not apply to you. To stay informed, watch for notifications in the {{site.data.keyword.cloud_notm}} console and other notification sources.

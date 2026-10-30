@@ -22,16 +22,19 @@ toc:
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:
+      id: learn
+      topics:
+      - topic: understanding-migration-topics.md
+        navtitle: Understanding migration topics
+      - topic: overview-ui.md
+        navtitle: Viewing classic resources dashboard
+  - navgroup:
       id: reference
       topics:
       - topic: mh-iam.md
         navtitle: IAM roles and resource visibility
       - topic: get-engaged.md
         navtitle: Migration scenarios, types, and timelines
-      - topic: understanding-migration-topics.md
-        navtitle: Migration topics and options
-      - topic: overview-ui.md
-        navtitle: Classic resources dashboard overview
   - navgroup:
       id: help
       topics:

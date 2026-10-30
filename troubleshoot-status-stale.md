@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-10-26"
+lastupdated: "2026-10-30"
 
 keywords: ibm cloud migration status, migration status not updating, stale migration status, migration progress, migration dashboard
 
@@ -31,5 +31,5 @@ Try the following steps:
 
 1. Refresh the {{site.data.keyword.mh_short}} dashboard and wait a few minutes before checking again. Status updates may take several minutes to propagate.
 1. Confirm that the migration step you completed was fully finalized in the target service. Navigate to the target service to verify the resource exists and is active.
-1. If the status remains stale after 30 minutes, refer [Migration help](/docs/migration?topic=migration-help) and reference the migration topic ID shown in {{site.data.keyword.mh_short}}.
+1. If the status remains stale after 30 minutes, see [Migration help](/docs/migration?topic=migration-help) and reference the migration topic ID shown in {{site.data.keyword.mh_short}}.
 {: tsResolve}

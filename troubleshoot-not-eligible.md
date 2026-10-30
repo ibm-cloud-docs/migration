@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-09-28"
+lastupdated: "2026-10-30"
 
 keywords: migration hub troubleshooting, resources not eligible, migration eligibility, missing resources
 
@@ -32,5 +32,5 @@ Try the following steps:
 1. Confirm that the resources are provisioned in the same account you are currently viewing in {{site.data.keyword.mh_short}}.
 1. Check the resource state in the {{site.data.keyword.cloud_notm}} resource list. Resources in error, suspended, or deprovisioned states may not appear as eligible.
 1. Review the migration task description for any eligibility criteria that your resources must meet.
-1. If you believe a resource should be eligible but is not shown, contact the service team listed in the migration task or refer [Migration help](/docs/migration?topic=migration-help).
+1. If you believe a resource should be eligible but is not shown, contact the service team listed in the migration task or see [Migration help](/docs/migration?topic=migration-help).
 {: tsResolve}

@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-10-26"
+lastupdated: "2026-10-30"
 
 keywords: ibm cloud migration support, migration hub help, ibm cloud support resources, migration contact, migration office hours
 
@@ -38,7 +38,7 @@ The support case form is limited to the {{site.data.keyword.mh_short}} topic onl
 - **Subject**: Problem or question with a {{site.data.keyword.mh_short}} topic (for example, Containers)
 - **Description**: Contextual prompts that ask about the resources you were trying to migrate, the instructions or migration process you were using, and the problem or question you have.
 
-You can also provide any evidence of issues through **attachments** and add additional email Ids to receive any notications regarding the support case.
+You can also provide any evidence of issues through **attachments** and add additional email IDs to receive any notifications regarding the support case.
 
 Adding a user's email address to the watchlist sends email notifications to the user when the case is updated, but does not grant access to view the case. To follow the case link in the email notification and view the case, the account owner must use {{site.data.keyword.cloud_notm}} Identity and Access Management (IAM) access policies to grant the user case view access.
 {: note}
