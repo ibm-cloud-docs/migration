@@ -2,7 +2,7 @@
 
 copyright:
   years: 2026
-lastupdated: "2026-10-30"
+lastupdated: "2026-11-02"
 
 keywords: migration hub faq, ibm cloud migration questions, migration eligibility, migration types, classic to vpc, cloud foundry migration, migration planning, migration costs
 
@@ -146,7 +146,7 @@ When a migration topic has a specific end date, resources that are not migrated 
 {: #faq-self-initiated}
 {: faq}
 
-No. {[mh]} is designed for IBM-initiated changes that require action on your resources, such as service deprecations, infrastructure upgrades, and regional relocations. Self-initiated reorganizations, such as moving resources between accounts or regions for your own operational reasons when no service team-driven change is involved, are outside the scope of {[mh]}. -->
+No. {[mh]} is designed for IBM-initiated changes that require action on your resources, such as service deprecations, infrastructure upgrades, and regional relocations. Self-initiated reorganizations, such as moving resources between accounts or regions for your own operational reasons when no service team-driven change is involved, are outside the scope of {[mh]}.-->
 
 ## What migration topics are currently available in {{site.data.keyword.mh_short}}?
 {: #faq-available-topics}
