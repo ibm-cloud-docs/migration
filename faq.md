@@ -140,14 +140,6 @@ If you encounter issues during migration, {{site.data.keyword.mh_short}} provide
 
 When a migration topic has a specific end date, resources that are not migrated by that date may be deactivated or removed. {{site.data.keyword.cloud_notm}} aims to provide adequate lead time, typically 60 to 90 days before the end date, and sends reminder notifications 30 days before the deadline. Start your migration as early as possible to allow time to plan, test, and resolve any issues. For a full breakdown of migration stages, see [Managing {{site.data.keyword.cloud_notm}} migrations with {{site.data.keyword.mh_short}}](/docs/migration?topic=migration-get-engaged).
 
-<!-->
-
-## Does {[mh]} support migrations I initiate myself?
-{: #faq-self-initiated}
-{: faq}
-
-No. {[mh]} is designed for IBM-initiated changes that require action on your resources, such as service deprecations, infrastructure upgrades, and regional relocations. Self-initiated reorganizations, such as moving resources between accounts or regions for your own operational reasons when no service team-driven change is involved, are outside the scope of {[mh]}.-->
-
 ## What migration topics are currently available in {{site.data.keyword.mh_short}}?
 {: #faq-available-topics}
 {: faq}
@@ -194,6 +186,13 @@ Yes. {{site.data.keyword.mh_short}} displays resources based on your IAM access,
 {: faq}
 
 Open the **Migration help** popup within {{site.data.keyword.mh_short}} and browse self-help resources such as migration guides, prerequisites, best practices, and troubleshooting content. If the self-help resources do not resolve your issue, click **I still need help** to open the support case flow. The support case form is scoped to {{site.data.keyword.mh_short}} topics and pre-fills with contextual information to help route your request to the correct team.
+
+
+<!-- ## Does {[mh]} support migrations I initiate myself?
+{: #faq-self-initiated}
+{: faq}
+
+No. {[mh]} is designed for IBM-initiated changes that require action on your resources, such as service deprecations, infrastructure upgrades, and regional relocations. Self-initiated reorganizations, such as moving resources between accounts or regions for your own operational reasons when no service team-driven change is involved, are outside the scope of {[mh]}-->
 
 ## Who is responsible for defining migration requirements and deadlines?
 {: #faq-who-owns-deadlines}
