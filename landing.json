@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "title": "Migration Hub",
+  "introduction": "Your centralized platform for managing migrations across IBM Cloud products and services. It identifies the resources in your account that require action, helps you plan your migration process, and guides you through each step — with instructions, documentation, and tools for transitions.",
+  "section_topics": {
+    "links": [
+      {
+        "title": "Getting started with Migration Hub",
+        "href": "/docs/migration?topic=migration-get-engaged"
+      },
+      {
+        "title": "Migration best practices",
+        "href": "/docs/migration?topic=migration-best-practices"
+      },
+      {
+        "title": "Frequently asked questions",
+        "href": "/docs/migration?topic=migration-faq"
+      },
+      {
+        "title": "Getting help",
+        "href": "/docs/migration?topic=migration-help"
+      }
+    ]
+  },
+  "section_highlights": [
+    {
+      "title": "Migrating from Classic Infrastructure to VPC",
+      "description": "Learn how to transition your workloads from IBM Cloud Classic Infrastructure to Virtual Private Cloud for enhanced security and performance.",
+      "href": "https://cloud.ibm.com/docs/classic-to-vpc",
+      "type": "training",
+      "recommended": true
+    },
+    {
+      "title": "Overview of Gen 1 (Classic) and Gen 2 (VPC)",
+      "description": "Complete your Gen 2 migration in phases with these building blocks. Requirements and tools vary by database type and deployment.",
+      "href": "https://cloud.ibm.com/docs/cloud-databases-gen2?topic=cloud-databases-gen2-overview-gen1-gen2",
+      "type": "training",
+      "recommended": true
+    }
+  ],
+  "section_updates": {
+    "view_more": "/docs/migration?topic=migration-relnotes",
+    "tiles": [
+      {
+        "date": "October 2026",
+        "title": "Migration Hub is now available in the IBM Cloud console. The centralized platform for managing migrations across IBM Cloud products and services."
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+toc:
+  properties:
+    subcollection: migration
+    href: /docs/migration
+    path: migration
+    service-name: Migration Hub
+    audience: solution
+    category: migration_tools
+    content-type: tutorial
+    description: Centralized platform for managing migrations between IBM Cloud products and services
+    label: Migration Hub
+  entries:
+  - navgroup:
+      id: learn
+      topics:
+      - topic: migration-hub.md
+        navtitle: About Migration Hub
+      - topic: bestpractices.md
+        navtitle: Best practices
+      - topic: roles-responsibilities.md
+        navtitle: Roles and responsibilities
+      - topic: release-notes.md
+        navtitle: Release notes
+  - navgroup:
+      id: learn
+      topics:
+      - topic: understanding-migration-topics.md
+        navtitle: Understanding migration topics
+      - topic: overview-ui.md
+        navtitle: Viewing classic resources dashboard
+  - navgroup:
+      id: reference
+      topics:
+      - topic: mh-iam.md
+        navtitle: IAM roles and resource visibility
+      - topic: get-engaged.md
+        navtitle: Migration scenarios, types, and timelines
+  - navgroup:
+      id: help
+      topics:
+      - topic: glossary.md
+        navtitle: Glossary
+      - topic: faq.md
+        navtitle: FAQs for Migration Hub
+      - topicgroup:
+          label: Troubleshooting
+          id: troubleshooting
+          topics:
+          - topic: troubleshoot-wizard-unavailable.md
+            navtitle: Migration wizard is unavailable
+          - topic: troubleshoot-status-stale.md
+            navtitle: Migration status is not updating
+          - topic: troubleshoot-not-eligible.md
+            navtitle: Resources not showing as eligible
+          - topic: troubleshoot-migration-failed.md
+            navtitle: Migration failed
+          - topic: troubleshoot-duplicate-notifications.md
+            navtitle: Receiving notifications for a completed migration
+      - topic: contact.md
+        navtitle: Migration help
