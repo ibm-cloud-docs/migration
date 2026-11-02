@@ -3,7 +3,7 @@
 copyright:
   years: 2026
 
-lastupdated: "2026-10-28"
+lastupdated: "2026-11-02"
 
 keywords: migration hub IAM, IAM permissions, resource controller access, identity access management, migration hub access, IAM roles, migration hub authentication, authorization
 
@@ -37,10 +37,15 @@ To view assets in {{site.data.keyword.mh_short}}, ensure you have the following 
 | `Resource group only` | All resource groups in the account | Viewer |
 {: caption="Permissions required to view assets" caption-side="bottom"}
 
-To view the assets for Compute servers, you must have the following permissions:
+### Additional persmissions for compute servers
+{: #access-compute}
+
+To view the assets for compute servers, you must have the following permissions:
 - **View Hardware Details**
 - **View Virtual Dedicated Host Details**
 - **View Virtual Server Details**
+
+Also, ensure that you have access to the respective devices and servers.
 
 If you do not have these permissions, {{site.data.keyword.mh_short}} redirects you to the {{site.data.keyword.cloud_notm}} console.
 {: note}

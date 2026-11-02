@@ -22,7 +22,7 @@ toc:
       - topic: release-notes.md
         navtitle: Release notes
   - navgroup:
-      id: learn
+      id: howto
       topics:
       - topic: understanding-migration-topics.md
         navtitle: Understanding migration topics
